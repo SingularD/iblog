@@ -14,7 +14,7 @@ class Footer extends React.Component{
             <a href="#">上一页</a>
           </div>
           <div className="col-4 text-center">
-            <a href="#">博客归档</a>
+            <a href="#">归档</a>
           </div>
           <div className="col-4 text-right">
             <a href="#">下一页</a>

@@ -12,7 +12,7 @@ class HomePage extends React.Component{
   list(n) {
     let arr = []
     for (let i = 0; i < n; i++) {
-      arr.push(<li className="list-group-item"><PostItem /></li>)
+      arr.push(<li className="list-group-item" key={i}><PostItem /></li>)
     }
     return arr
   }
