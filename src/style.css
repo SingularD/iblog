@@ -5,3 +5,35 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
+.homepage{
+    height: 100%;
+    overflow: auto;
+}
+
+.post-item-header {
+    height: 60px;
+}
+
+.post-item-header-title h2{
+    line-height: 60px;
+}
+@media screen and (max-width: 960px){
+    .post-item-header-title h2{
+        font-size: 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.post-item-header  p {
+    line-height: 60px;
+}
+
+
+.footer-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-page-turning{
+    padding-left: 0;
+    padding-right: 0;
+}
