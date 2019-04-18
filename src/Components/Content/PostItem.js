@@ -12,18 +12,18 @@ class PostItem extends React.Component{
 
         <div className="post-item-header row justify-content-between">
           <div className="post-item-header-title col-12 col-lg-10">
-            <h2>
+            <h3>
               如何使用JavaScript如何使用JavaScript
-            </h2>
+            </h3>
           </div>
-          <div className="post-item-header-date col-lg-2 d-none d-lg-block">
+          <div className="post-item-header-date col-lg-2 col-12">
             <p>
               2019-4-19
             </p>
           </div>
         </div>
 
-        <div className="post-item-content col-12">
+        <div className="post-item-content col-sm-12 d-none d-sm-block">
           <p>
             今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。
             尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」
