@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
+import 'highlight.js/styles/github.css'
 
 import HomePage from './Components/Content/HomePage'
 import Archive from './Components/Content/Archive'
@@ -13,6 +14,7 @@ import Initialize from './Components/Initialize/Initialize'
 import Admin from './Components/Admin/Admin'
 import Login from './Components/Admin/Login'
 import Search from './Components/Content/Search'
+import Post from './Components/Content/Post'
 
 class App extends React.Component {
   render() {
@@ -21,6 +23,7 @@ class App extends React.Component {
         <div className="App row">
             <Switch>
               <Route path="/search" component={Search}/>
+              <Route path="/post/:id?" component={Post}/>
               <Route path="/login" component={Login}/>
               <Route path="/initialize" component={Initialize}/>
               <Route path="/admin" component={Admin}/>

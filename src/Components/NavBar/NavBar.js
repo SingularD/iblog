@@ -11,6 +11,13 @@ import SearchUrl from '../../assets/images/search.png'
 class NavBar extends React.Component{
   constructor(props) {
     super(props)
+    this.state = {
+      portraitUrl: PortraitUrl,
+      username: 'Singular',
+      resume: '这是一段个人简介',
+      githubUrl: '',
+      rssUrl: ''
+    }
   }
 
   render() {
@@ -21,11 +28,11 @@ class NavBar extends React.Component{
         >
           <div className="nav-bar-container">
             <div className="nav-bar-head-portrait">
-              <img src={PortraitUrl} alt="头像"/>
+              <img src={this.state.portraitUrl} alt="头像"/>
             </div>
             <div className="nav-bar-resume">
-              <h3>姓名</h3>
-              <p>这是一段个人简介</p>
+              <h3>{this.state.username}</h3>
+              <p>{this.state.resume}</p>
             </div>
             <div className="nav-bar-links">
               <ul className="list-group list-group-flush">
@@ -39,7 +46,7 @@ class NavBar extends React.Component{
             <div className="nav-bar-hrefs">
               <img src={GithubUrl} alt="github"/>
               <img src={RssUrl} alt="rss"/>
-              <Link to="search">
+              <Link to="/search">
                 <img src={SearchUrl} alt="search"/>
               </Link>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import {DataHomepage} from "../../Data";
 
 import PostItem from './PostItem'
 import Footer from '../Base/Footer'
@@ -9,14 +10,10 @@ import NavBar from '../NavBar/NavBar'
 class HomePage extends React.Component{
   constructor(props) {
     super(props)
-  }
-
-  list(n) {
-    let arr = []
-    for (let i = 0; i < n; i++) {
-      arr.push(<li className="list-group-item" key={i}><PostItem /></li>)
+    this.state = {
+      postList: DataHomepage,
+      currentPage: 1
     }
-    return arr
   }
 
 
@@ -28,7 +25,16 @@ class HomePage extends React.Component{
           justify-content-center justify-content-lg-around homepage">
           <ul className="list-group list-group-flush">
             {
-              this.list(8)
+              this.state.postList.map((item, index) => (
+                <li className="list-group-item" key={index}>
+                  <PostItem
+                    id={item.id}
+                    title={item.title}
+                    date={item.date}
+                    abstract={item.abstract}
+                  />
+                </li>
+              ))
             }
           </ul>
           <Footer />

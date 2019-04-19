@@ -64,6 +64,12 @@
     padding-right: 0 !important;
 }
 
+pre {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-left: #c5c5c5 5px solid;
+}
+
 
 
 
@@ -159,7 +165,16 @@
     border-radius: 50%;
     border: 2px gray solid;
 }
-
+.post{
+    height: 100%;
+    overflow: auto;
+}
+.post-header{
+    padding-top: 30px;
+}
+.post-header-title {
+    font-size: 40px;
+}
 .initialize{
     height: 100%;
     padding-left: 0 !important;
