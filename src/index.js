@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App row">
+          <div className="App row">
             <Switch>
               <Route path="/search" component={Search}/>
               <Route path="/post/:id?" component={Post}/>
@@ -33,7 +33,7 @@ class App extends React.Component {
               <Route path="/category" component={Category}/>
               <Route path="/" component={HomePage}/>
             </Switch>
-        </div>
+          </div>
       </BrowserRouter>
     );
   }
