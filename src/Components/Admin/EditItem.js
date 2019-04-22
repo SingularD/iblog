@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-class Writing extends React.Component{
+class EditItem extends React.Component{
   constructor(props) {
     super(props)
   }
@@ -42,9 +42,9 @@ class Writing extends React.Component{
           </div>
         </div>
       </div>
-      )
+    )
   }
 
 }
 
-export default Writing
+export default EditItem

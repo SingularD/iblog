@@ -8,7 +8,7 @@ class AdminHome extends React.Component{
 
   render() {
     return (
-      <div className="admin-home-container">
+      <div className="admin-home-container col-10">
         <h1>AdminHome</h1>
       </div>
     )
