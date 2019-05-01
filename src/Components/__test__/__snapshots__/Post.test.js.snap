@@ -1,0 +1,858 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检测文章展示页是否正常渲染 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Post />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <NavBar />,
+        <div
+          className="col-12 col-lg-9 row post justify-content-center"
+        >
+          <div
+            className="col-11 post-header"
+          >
+            <p
+              className="post-header-title"
+            >
+              如何为 ThinkJS 3 网站优化 TTFB 时间
+            </p>
+            <p>
+              2019-04-12
+            </p>
+            <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                }
+              }
+            />
+          </div>
+          <SiteInfo />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col-11 post-header"
+            >
+              <p
+                className="post-header-title"
+              >
+                如何为 ThinkJS 3 网站优化 TTFB 时间
+              </p>
+              <p>
+                2019-04-12
+              </p>
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                  }
+                }
+              />
+            </div>,
+            <SiteInfo />,
+          ],
+          "className": "col-12 col-lg-9 row post justify-content-center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="post-header-title"
+                >
+                  如何为 ThinkJS 3 网站优化 TTFB 时间
+                </p>,
+                <p>
+                  2019-04-12
+                </p>,
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                    }
+                  }
+                />,
+              ],
+              "className": "col-11 post-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                  "className": "post-header-title",
+                },
+                "ref": null,
+                "rendered": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2019-04-12",
+                },
+                "ref": null,
+                "rendered": "2019-04-12",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "dangerouslySetInnerHTML": Object {
+                    "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <NavBar />,
+          <div
+            className="col-12 col-lg-9 row post justify-content-center"
+          >
+            <div
+              className="col-11 post-header"
+            >
+              <p
+                className="post-header-title"
+              >
+                如何为 ThinkJS 3 网站优化 TTFB 时间
+              </p>
+              <p>
+                2019-04-12
+              </p>
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                  }
+                }
+              />
+            </div>
+            <SiteInfo />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-11 post-header"
+              >
+                <p
+                  className="post-header-title"
+                >
+                  如何为 ThinkJS 3 网站优化 TTFB 时间
+                </p>
+                <p>
+                  2019-04-12
+                </p>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                    }
+                  }
+                />
+              </div>,
+              <SiteInfo />,
+            ],
+            "className": "col-12 col-lg-9 row post justify-content-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="post-header-title"
+                  >
+                    如何为 ThinkJS 3 网站优化 TTFB 时间
+                  </p>,
+                  <p>
+                    2019-04-12
+                  </p>,
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                      }
+                    }
+                  />,
+                ],
+                "className": "col-11 post-header",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                    "className": "post-header-title",
+                  },
+                  "ref": null,
+                  "rendered": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2019-04-12",
+                  },
+                  "ref": null,
+                  "rendered": "2019-04-12",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "dangerouslySetInnerHTML": Object {
+                      "__html": "<h2 id=\\"js框架学习\\">JS框架学习</h2>
+<h3 id=\\"vuejs\\">Vue.js</h3>
+<h4 id=\\"安装\\">安装</h4>
+<pre><code class=\\"language-shell\\"><span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">install -g vue-cli</span>
+
+<span class=\\"hljs-attr\\">vue</span> <span class=\\"hljs-string\\">init webpack projectName</span>
+<span class=\\"hljs-attr\\">cd</span> <span class=\\"hljs-string\\">projectName</span>
+<span class=\\"hljs-attr\\">npm</span> <span class=\\"hljs-string\\">run dev</span></code></pre>
+<h4 id=\\"基础知识\\">基础知识</h4>
+<h5 id=\\"生命周期\\">生命周期</h5>
+<p>由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：</p>
+<ol>
+<li>beforeCreate</li>
+<li>create</li>
+<li>beforeMount</li>
+<li>mounted</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>beforeDestroy</li>
+<li>destroyed</li>
+</ol>
+<p>那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行</p>
+<h4 id=\\"选项数据\\">选项数据</h4>
+<ul>
+<li>data</li>
+<li>computed</li>
+<li>methods</li>
+</ul>
+<p>首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要<code>{{ 变量名即可 }}</code>,我们可以把它想做对象的解构赋值，而且在这个<code>{{}}</code>中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；</p>
+<p>computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象</p>
+<pre><code class=\\"language-vue\\"><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">template</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">div</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>选项数据<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>data: </span><span class=\\"hljs-template-variable\\">{{ message }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>computed:  </span><span class=\\"hljs-template-variable\\">{{ count }}</span><span class=\\"xml\\"><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span>&gt;</span>---------------------------<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+      <span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">h1</span> @<span class=\\"hljs-attr\\">click</span>=<span class=\\"hljs-string\\">\\"sayHi('hello')\\"</span>&gt;</span>methods!<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">h1</span>&gt;</span>
+    <span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">div</span>&gt;</span>
+<span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">template</span>&gt;</span>
+
+<span class=\\"hljs-tag\\">&lt;<span class=\\"hljs-name\\">script</span>&gt;</span><span class=\\"javascript\\">
+  <span class=\\"hljs-keyword\\">export</span> <span class=\\"hljs-keyword\\">default</span> {
+    <span class=\\"hljs-attr\\">name</span>: <span class=\\"hljs-string\\">\\"test\\"</span>,
+    data() {
+      <span class=\\"hljs-keyword\\">return</span> {
+        <span class=\\"hljs-attr\\">message</span>: <span class=\\"hljs-string\\">'我是李松蔚'</span>,
+        <span class=\\"hljs-attr\\">num</span>: <span class=\\"hljs-number\\">20</span>
+      }
+    },
+    <span class=\\"hljs-attr\\">computed</span>: {
+      count() {
+        <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-keyword\\">this</span>.num + <span class=\\"hljs-number\\">10</span>;
+      }
+    },
+    <span class=\\"hljs-attr\\">methods</span>: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</span><span class=\\"hljs-tag\\">&lt;/<span class=\\"hljs-name\\">script</span>&gt;</span></span></code></pre>
+",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

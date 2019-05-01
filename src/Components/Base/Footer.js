@@ -2,10 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class Footer extends React.Component{
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="footer-container col-12 row justify-content-between">

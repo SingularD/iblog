@@ -3,10 +3,6 @@ import React from 'react'
 import Portrait from '../../assets/images/portrait_mode.png'
 
 class Initialize extends React.Component{
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="row col-12 justify-content-center initialize">

@@ -1,0 +1,1576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试网站初始化界面 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Initialize />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="row col-lg-4 col-12 border-right mt-3 mt-lg-0 border-bottom justify-content-center initialize-nav-bar"
+        >
+          <div
+            className="col-12 col-lg-10"
+          >
+            <h3>
+              导航栏信息初始化：
+            </h3>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="Username"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-resume"
+                placeholder="Resume"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3 initialize-portrait-submit"
+            >
+              <label
+                htmlFor="exampleFormControlFile1"
+              >
+                上传头像
+              </label>
+              <input
+                className="form-control-file"
+                id="exampleFormControlFile1"
+                type="file"
+              />
+              <div
+                className="portrait-preview mt-2"
+              >
+                <p>
+                  头像预览：
+                </p>
+                <img
+                  alt=""
+                  src="portrait_mode.png"
+                />
+              </div>
+            </div>
+            <div
+              className="initialize-submit mt-5"
+            >
+              <button
+                className="btn btn-success"
+                type="button"
+              >
+                确认提交
+              </button>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="col-lg-8 col-12 mt-3 mt-lg-0"
+        >
+          <h3>
+            网站信息初始化：
+          </h3>
+          <div
+            className="input-group mt-3"
+          >
+            <input
+              className="form-control init-username"
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            className="input-group mt-3"
+          >
+            <input
+              className="form-control record-info"
+              placeholder="备案信息"
+              type="text"
+            />
+          </div>
+          <div
+            className="input-group mt-3"
+          >
+            <input
+              className="form-control init-username"
+              placeholder="个人声明"
+              type="text"
+            />
+          </div>
+          <div
+            className="input-group mt-3"
+          >
+            <textarea
+              className="form-control init-username"
+              placeholder="版权说明"
+            />
+          </div>
+          <div
+            className="input-group mt-3"
+          >
+            <textarea
+              className="form-control init-username"
+              placeholder="支持本站"
+            />
+          </div>
+          <div
+            className="input-group mt-3"
+          >
+            <textarea
+              className="form-control init-username"
+              placeholder="关于本站"
+            />
+          </div>
+          <div
+            className="row justify-content-center mt-3 pb-3"
+          >
+            <button
+              className="btn btn-success col-4 col-lg-2"
+              type="button"
+            >
+              确认提交
+            </button>
+          </div>
+        </div>,
+      ],
+      "className": "row col-12 justify-content-center initialize",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="col-12 col-lg-10"
+          >
+            <h3>
+              导航栏信息初始化：
+            </h3>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="Username"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-resume"
+                placeholder="Resume"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3 initialize-portrait-submit"
+            >
+              <label
+                htmlFor="exampleFormControlFile1"
+              >
+                上传头像
+              </label>
+              <input
+                className="form-control-file"
+                id="exampleFormControlFile1"
+                type="file"
+              />
+              <div
+                className="portrait-preview mt-2"
+              >
+                <p>
+                  头像预览：
+                </p>
+                <img
+                  alt=""
+                  src="portrait_mode.png"
+                />
+              </div>
+            </div>
+            <div
+              className="initialize-submit mt-5"
+            >
+              <button
+                className="btn btn-success"
+                type="button"
+              >
+                确认提交
+              </button>
+            </div>
+          </div>,
+          "className": "row col-lg-4 col-12 border-right mt-3 mt-lg-0 border-bottom justify-content-center initialize-nav-bar",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                导航栏信息初始化：
+              </h3>,
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-resume"
+                  placeholder="Resume"
+                  type="text"
+                />
+              </div>,
+              <div
+                className="input-group mt-3 initialize-portrait-submit"
+              >
+                <label
+                  htmlFor="exampleFormControlFile1"
+                >
+                  上传头像
+                </label>
+                <input
+                  className="form-control-file"
+                  id="exampleFormControlFile1"
+                  type="file"
+                />
+                <div
+                  className="portrait-preview mt-2"
+                >
+                  <p>
+                    头像预览：
+                  </p>
+                  <img
+                    alt=""
+                    src="portrait_mode.png"
+                  />
+                </div>
+              </div>,
+              <div
+                className="initialize-submit mt-5"
+              >
+                <button
+                  className="btn btn-success"
+                  type="button"
+                >
+                  确认提交
+                </button>
+              </div>,
+            ],
+            "className": "col-12 col-lg-10",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "导航栏信息初始化：",
+              },
+              "ref": null,
+              "rendered": "导航栏信息初始化：",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "Username",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  className="form-control init-resume"
+                  placeholder="Resume"
+                  type="text"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-resume",
+                  "placeholder": "Resume",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    htmlFor="exampleFormControlFile1"
+                  >
+                    上传头像
+                  </label>,
+                  <input
+                    className="form-control-file"
+                    id="exampleFormControlFile1"
+                    type="file"
+                  />,
+                  <div
+                    className="portrait-preview mt-2"
+                  >
+                    <p>
+                      头像预览：
+                    </p>
+                    <img
+                      alt=""
+                      src="portrait_mode.png"
+                    />
+                  </div>,
+                ],
+                "className": "input-group mt-3 initialize-portrait-submit",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "上传头像",
+                    "htmlFor": "exampleFormControlFile1",
+                  },
+                  "ref": null,
+                  "rendered": "上传头像",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control-file",
+                    "id": "exampleFormControlFile1",
+                    "type": "file",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        头像预览：
+                      </p>,
+                      <img
+                        alt=""
+                        src="portrait_mode.png"
+                      />,
+                    ],
+                    "className": "portrait-preview mt-2",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "头像预览：",
+                      },
+                      "ref": null,
+                      "rendered": "头像预览：",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "",
+                        "src": "portrait_mode.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="btn btn-success"
+                  type="button"
+                >
+                  确认提交
+                </button>,
+                "className": "initialize-submit mt-5",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "确认提交",
+                  "className": "btn btn-success",
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": "确认提交",
+                "type": "button",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              网站信息初始化：
+            </h3>,
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="Username"
+                type="text"
+              />
+            </div>,
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control record-info"
+                placeholder="备案信息"
+                type="text"
+              />
+            </div>,
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="个人声明"
+                type="text"
+              />
+            </div>,
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="版权说明"
+              />
+            </div>,
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="支持本站"
+              />
+            </div>,
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="关于本站"
+              />
+            </div>,
+            <div
+              className="row justify-content-center mt-3 pb-3"
+            >
+              <button
+                className="btn btn-success col-4 col-lg-2"
+                type="button"
+              >
+                确认提交
+              </button>
+            </div>,
+          ],
+          "className": "col-lg-8 col-12 mt-3 mt-lg-0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "网站信息初始化：",
+            },
+            "ref": null,
+            "rendered": "网站信息初始化：",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control init-username"
+                placeholder="Username"
+                type="text"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control init-username",
+                "placeholder": "Username",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control record-info"
+                placeholder="备案信息"
+                type="text"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control record-info",
+                "placeholder": "备案信息",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control init-username"
+                placeholder="个人声明"
+                type="text"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control init-username",
+                "placeholder": "个人声明",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control init-username"
+                placeholder="版权说明"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control init-username",
+                "placeholder": "版权说明",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control init-username"
+                placeholder="支持本站"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control init-username",
+                "placeholder": "支持本站",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control init-username"
+                placeholder="关于本站"
+              />,
+              "className": "input-group mt-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control init-username",
+                "placeholder": "关于本站",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="btn btn-success col-4 col-lg-2"
+                type="button"
+              >
+                确认提交
+              </button>,
+              "className": "row justify-content-center mt-3 pb-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "确认提交",
+                "className": "btn btn-success col-4 col-lg-2",
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "确认提交",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row col-lg-4 col-12 border-right mt-3 mt-lg-0 border-bottom justify-content-center initialize-nav-bar"
+          >
+            <div
+              className="col-12 col-lg-10"
+            >
+              <h3>
+                导航栏信息初始化：
+              </h3>
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />
+              </div>
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-resume"
+                  placeholder="Resume"
+                  type="text"
+                />
+              </div>
+              <div
+                className="input-group mt-3 initialize-portrait-submit"
+              >
+                <label
+                  htmlFor="exampleFormControlFile1"
+                >
+                  上传头像
+                </label>
+                <input
+                  className="form-control-file"
+                  id="exampleFormControlFile1"
+                  type="file"
+                />
+                <div
+                  className="portrait-preview mt-2"
+                >
+                  <p>
+                    头像预览：
+                  </p>
+                  <img
+                    alt=""
+                    src="portrait_mode.png"
+                  />
+                </div>
+              </div>
+              <div
+                className="initialize-submit mt-5"
+              >
+                <button
+                  className="btn btn-success"
+                  type="button"
+                >
+                  确认提交
+                </button>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="col-lg-8 col-12 mt-3 mt-lg-0"
+          >
+            <h3>
+              网站信息初始化：
+            </h3>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="Username"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control record-info"
+                placeholder="备案信息"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <input
+                className="form-control init-username"
+                placeholder="个人声明"
+                type="text"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="版权说明"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="支持本站"
+              />
+            </div>
+            <div
+              className="input-group mt-3"
+            >
+              <textarea
+                className="form-control init-username"
+                placeholder="关于本站"
+              />
+            </div>
+            <div
+              className="row justify-content-center mt-3 pb-3"
+            >
+              <button
+                className="btn btn-success col-4 col-lg-2"
+                type="button"
+              >
+                确认提交
+              </button>
+            </div>
+          </div>,
+        ],
+        "className": "row col-12 justify-content-center initialize",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="col-12 col-lg-10"
+            >
+              <h3>
+                导航栏信息初始化：
+              </h3>
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />
+              </div>
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-resume"
+                  placeholder="Resume"
+                  type="text"
+                />
+              </div>
+              <div
+                className="input-group mt-3 initialize-portrait-submit"
+              >
+                <label
+                  htmlFor="exampleFormControlFile1"
+                >
+                  上传头像
+                </label>
+                <input
+                  className="form-control-file"
+                  id="exampleFormControlFile1"
+                  type="file"
+                />
+                <div
+                  className="portrait-preview mt-2"
+                >
+                  <p>
+                    头像预览：
+                  </p>
+                  <img
+                    alt=""
+                    src="portrait_mode.png"
+                  />
+                </div>
+              </div>
+              <div
+                className="initialize-submit mt-5"
+              >
+                <button
+                  className="btn btn-success"
+                  type="button"
+                >
+                  确认提交
+                </button>
+              </div>
+            </div>,
+            "className": "row col-lg-4 col-12 border-right mt-3 mt-lg-0 border-bottom justify-content-center initialize-nav-bar",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  导航栏信息初始化：
+                </h3>,
+                <div
+                  className="input-group mt-3"
+                >
+                  <input
+                    className="form-control init-username"
+                    placeholder="Username"
+                    type="text"
+                  />
+                </div>,
+                <div
+                  className="input-group mt-3"
+                >
+                  <input
+                    className="form-control init-resume"
+                    placeholder="Resume"
+                    type="text"
+                  />
+                </div>,
+                <div
+                  className="input-group mt-3 initialize-portrait-submit"
+                >
+                  <label
+                    htmlFor="exampleFormControlFile1"
+                  >
+                    上传头像
+                  </label>
+                  <input
+                    className="form-control-file"
+                    id="exampleFormControlFile1"
+                    type="file"
+                  />
+                  <div
+                    className="portrait-preview mt-2"
+                  >
+                    <p>
+                      头像预览：
+                    </p>
+                    <img
+                      alt=""
+                      src="portrait_mode.png"
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="initialize-submit mt-5"
+                >
+                  <button
+                    className="btn btn-success"
+                    type="button"
+                  >
+                    确认提交
+                  </button>
+                </div>,
+              ],
+              "className": "col-12 col-lg-10",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "导航栏信息初始化：",
+                },
+                "ref": null,
+                "rendered": "导航栏信息初始化：",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <input
+                    className="form-control init-username"
+                    placeholder="Username"
+                    type="text"
+                  />,
+                  "className": "input-group mt-3",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control init-username",
+                    "placeholder": "Username",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <input
+                    className="form-control init-resume"
+                    placeholder="Resume"
+                    type="text"
+                  />,
+                  "className": "input-group mt-3",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "form-control init-resume",
+                    "placeholder": "Resume",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label
+                      htmlFor="exampleFormControlFile1"
+                    >
+                      上传头像
+                    </label>,
+                    <input
+                      className="form-control-file"
+                      id="exampleFormControlFile1"
+                      type="file"
+                    />,
+                    <div
+                      className="portrait-preview mt-2"
+                    >
+                      <p>
+                        头像预览：
+                      </p>
+                      <img
+                        alt=""
+                        src="portrait_mode.png"
+                      />
+                    </div>,
+                  ],
+                  "className": "input-group mt-3 initialize-portrait-submit",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "上传头像",
+                      "htmlFor": "exampleFormControlFile1",
+                    },
+                    "ref": null,
+                    "rendered": "上传头像",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "form-control-file",
+                      "id": "exampleFormControlFile1",
+                      "type": "file",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p>
+                          头像预览：
+                        </p>,
+                        <img
+                          alt=""
+                          src="portrait_mode.png"
+                        />,
+                      ],
+                      "className": "portrait-preview mt-2",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "头像预览：",
+                        },
+                        "ref": null,
+                        "rendered": "头像预览：",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "",
+                          "src": "portrait_mode.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="btn btn-success"
+                    type="button"
+                  >
+                    确认提交
+                  </button>,
+                  "className": "initialize-submit mt-5",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "确认提交",
+                    "className": "btn btn-success",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "确认提交",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                网站信息初始化：
+              </h3>,
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control record-info"
+                  placeholder="备案信息"
+                  type="text"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <input
+                  className="form-control init-username"
+                  placeholder="个人声明"
+                  type="text"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <textarea
+                  className="form-control init-username"
+                  placeholder="版权说明"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <textarea
+                  className="form-control init-username"
+                  placeholder="支持本站"
+                />
+              </div>,
+              <div
+                className="input-group mt-3"
+              >
+                <textarea
+                  className="form-control init-username"
+                  placeholder="关于本站"
+                />
+              </div>,
+              <div
+                className="row justify-content-center mt-3 pb-3"
+              >
+                <button
+                  className="btn btn-success col-4 col-lg-2"
+                  type="button"
+                >
+                  确认提交
+                </button>
+              </div>,
+            ],
+            "className": "col-lg-8 col-12 mt-3 mt-lg-0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "网站信息初始化：",
+              },
+              "ref": null,
+              "rendered": "网站信息初始化：",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  className="form-control init-username"
+                  placeholder="Username"
+                  type="text"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "Username",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  className="form-control record-info"
+                  placeholder="备案信息"
+                  type="text"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control record-info",
+                  "placeholder": "备案信息",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  className="form-control init-username"
+                  placeholder="个人声明"
+                  type="text"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "个人声明",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <textarea
+                  className="form-control init-username"
+                  placeholder="版权说明"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "版权说明",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <textarea
+                  className="form-control init-username"
+                  placeholder="支持本站"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "支持本站",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <textarea
+                  className="form-control init-username"
+                  placeholder="关于本站"
+                />,
+                "className": "input-group mt-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control init-username",
+                  "placeholder": "关于本站",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="btn btn-success col-4 col-lg-2"
+                  type="button"
+                >
+                  确认提交
+                </button>,
+                "className": "row justify-content-center mt-3 pb-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "确认提交",
+                  "className": "btn btn-success col-4 col-lg-2",
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": "确认提交",
+                "type": "button",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
