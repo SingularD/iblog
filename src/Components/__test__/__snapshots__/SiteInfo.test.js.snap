@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试网站页面最底部的网站信息与备案信息 检测信息是否渲染 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SiteInfo />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="site-info-header"
+        >
+          © 2019 - 225 的小站 - 京 ICP 备2016100104号
+        </p>,
+        <p
+          className="site-info-footer"
+        >
+          Powered by Bootstrap & React JS
+        </p>,
+      ],
+      "className": "site-info-container col-12 row justify-content-center align-items-center border-top pt-4 ",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "© 2019 - 225 的小站 - 京 ICP 备2016100104号",
+          "className": "site-info-header",
+        },
+        "ref": null,
+        "rendered": "© 2019 - 225 的小站 - 京 ICP 备2016100104号",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Powered by Bootstrap & React JS",
+          "className": "site-info-footer",
+        },
+        "ref": null,
+        "rendered": "Powered by Bootstrap & React JS",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="site-info-header"
+          >
+            © 2019 - 225 的小站 - 京 ICP 备2016100104号
+          </p>,
+          <p
+            className="site-info-footer"
+          >
+            Powered by Bootstrap & React JS
+          </p>,
+        ],
+        "className": "site-info-container col-12 row justify-content-center align-items-center border-top pt-4 ",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "© 2019 - 225 的小站 - 京 ICP 备2016100104号",
+            "className": "site-info-header",
+          },
+          "ref": null,
+          "rendered": "© 2019 - 225 的小站 - 京 ICP 备2016100104号",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Powered by Bootstrap & React JS",
+            "className": "site-info-footer",
+          },
+          "ref": null,
+          "rendered": "Powered by Bootstrap & React JS",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

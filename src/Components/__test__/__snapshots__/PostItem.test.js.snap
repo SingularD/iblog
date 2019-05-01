@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检测文章列表简略图是否正常渲染 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostItem
+    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+    date="2019-4-19"
+    id="0"
+    title="如何使用JavaScript如何使用JavaScript"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="post-item-header row justify-content-between"
+        >
+          <div
+            className="post-item-header-title col-12 col-lg-10"
+          >
+            <h3>
+              如何使用JavaScript如何使用JavaScript
+            </h3>
+          </div>
+          <div
+            className="post-item-header-date col-lg-2 col-12"
+          >
+            <p>
+              2019-4-19
+            </p>
+          </div>
+        </div>,
+        <div
+          className="post-item-content col-sm-12 d-none d-sm-block"
+        >
+          <p>
+            今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。
+          </p>
+        </div>,
+        <div
+          className="post-item-footer col-12"
+        >
+          <Link
+            to="/post/0"
+          >
+            继续阅读...
+          </Link>
+        </div>,
+      ],
+      "className": "post-item-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="post-item-header-title col-12 col-lg-10"
+            >
+              <h3>
+                如何使用JavaScript如何使用JavaScript
+              </h3>
+            </div>,
+            <div
+              className="post-item-header-date col-lg-2 col-12"
+            >
+              <p>
+                2019-4-19
+              </p>
+            </div>,
+          ],
+          "className": "post-item-header row justify-content-between",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h3>
+                如何使用JavaScript如何使用JavaScript
+              </h3>,
+              "className": "post-item-header-title col-12 col-lg-10",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "如何使用JavaScript如何使用JavaScript",
+              },
+              "ref": null,
+              "rendered": "如何使用JavaScript如何使用JavaScript",
+              "type": "h3",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                2019-4-19
+              </p>,
+              "className": "post-item-header-date col-lg-2 col-12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2019-4-19",
+              },
+              "ref": null,
+              "rendered": "2019-4-19",
+              "type": "p",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p>
+            今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。
+          </p>,
+          "className": "post-item-content col-sm-12 d-none d-sm-block",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+          },
+          "ref": null,
+          "rendered": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            to="/post/0"
+          >
+            继续阅读...
+          </Link>,
+          "className": "post-item-footer col-12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "继续阅读...",
+            "to": "/post/0",
+          },
+          "ref": null,
+          "rendered": "继续阅读...",
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="post-item-header row justify-content-between"
+          >
+            <div
+              className="post-item-header-title col-12 col-lg-10"
+            >
+              <h3>
+                如何使用JavaScript如何使用JavaScript
+              </h3>
+            </div>
+            <div
+              className="post-item-header-date col-lg-2 col-12"
+            >
+              <p>
+                2019-4-19
+              </p>
+            </div>
+          </div>,
+          <div
+            className="post-item-content col-sm-12 d-none d-sm-block"
+          >
+            <p>
+              今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。
+            </p>
+          </div>,
+          <div
+            className="post-item-footer col-12"
+          >
+            <Link
+              to="/post/0"
+            >
+              继续阅读...
+            </Link>
+          </div>,
+        ],
+        "className": "post-item-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="post-item-header-title col-12 col-lg-10"
+              >
+                <h3>
+                  如何使用JavaScript如何使用JavaScript
+                </h3>
+              </div>,
+              <div
+                className="post-item-header-date col-lg-2 col-12"
+              >
+                <p>
+                  2019-4-19
+                </p>
+              </div>,
+            ],
+            "className": "post-item-header row justify-content-between",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h3>
+                  如何使用JavaScript如何使用JavaScript
+                </h3>,
+                "className": "post-item-header-title col-12 col-lg-10",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "如何使用JavaScript如何使用JavaScript",
+                },
+                "ref": null,
+                "rendered": "如何使用JavaScript如何使用JavaScript",
+                "type": "h3",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  2019-4-19
+                </p>,
+                "className": "post-item-header-date col-lg-2 col-12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2019-4-19",
+                },
+                "ref": null,
+                "rendered": "2019-4-19",
+                "type": "p",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。
+            </p>,
+            "className": "post-item-content col-sm-12 d-none d-sm-block",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+            },
+            "ref": null,
+            "rendered": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+            "type": "p",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              to="/post/0"
+            >
+              继续阅读...
+            </Link>,
+            "className": "post-item-footer col-12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "继续阅读...",
+              "to": "/post/0",
+            },
+            "ref": null,
+            "rendered": "继续阅读...",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

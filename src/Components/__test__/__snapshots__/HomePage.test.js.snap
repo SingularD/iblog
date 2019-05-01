@@ -1,0 +1,1174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检查主页相关内容是否正常渲染 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomePage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <NavBar />,
+        <div
+          className="col-12 col-lg-9 row justify-content-center justify-content-lg-around homepage"
+        >
+          <ul
+            className="list-group list-group-flush"
+          >
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="0"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="1"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="2"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="3"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="4"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="5"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="6"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+            <li
+              className="list-group-item"
+            >
+              <PostItem
+                abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                date="2019-4-19"
+                id="7"
+                title="如何使用JavaScript如何使用JavaScript"
+              />
+            </li>
+          </ul>
+          <Footer />
+          <SiteInfo />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="0"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="1"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="2"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="3"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="4"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="5"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="6"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="7"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+            </ul>,
+            <Footer />,
+            <SiteInfo />,
+          ],
+          "className": "col-12 col-lg-9 row justify-content-center justify-content-lg-around homepage",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="0"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="1"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="2"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="3"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="4"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="5"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="6"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="7"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>,
+              ],
+              "className": "list-group list-group-flush",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="0"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "0",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="1"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "1",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="2"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "2",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="3"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "3",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="4"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "4",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="5"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "5",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="6"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "6",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="7"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />,
+                  "className": "list-group-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                    "date": "2019-4-19",
+                    "id": "7",
+                    "title": "如何使用JavaScript如何使用JavaScript",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <NavBar />,
+          <div
+            className="col-12 col-lg-9 row justify-content-center justify-content-lg-around homepage"
+          >
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="0"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="1"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="2"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="3"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="4"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="5"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="6"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+              <li
+                className="list-group-item"
+              >
+                <PostItem
+                  abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  date="2019-4-19"
+                  id="7"
+                  title="如何使用JavaScript如何使用JavaScript"
+                />
+              </li>
+            </ul>
+            <Footer />
+            <SiteInfo />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul
+                className="list-group list-group-flush"
+              >
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="0"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="1"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="2"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="3"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="4"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="5"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="6"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                >
+                  <PostItem
+                    abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                    date="2019-4-19"
+                    id="7"
+                    title="如何使用JavaScript如何使用JavaScript"
+                  />
+                </li>
+              </ul>,
+              <Footer />,
+              <SiteInfo />,
+            ],
+            "className": "col-12 col-lg-9 row justify-content-center justify-content-lg-around homepage",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="0"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="1"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="2"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="3"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="4"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="5"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="6"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                  <li
+                    className="list-group-item"
+                  >
+                    <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="7"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />
+                  </li>,
+                ],
+                "className": "list-group list-group-flush",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="0"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "0",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="1"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "1",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="2"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "2",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="3"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "3",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="4"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "4",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="5"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "5",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "6",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="6"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "6",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "7",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PostItem
+                      abstract="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                      date="2019-4-19"
+                      id="7"
+                      title="如何使用JavaScript如何使用JavaScript"
+                    />,
+                    "className": "list-group-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "abstract": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                      "date": "2019-4-19",
+                      "id": "7",
+                      "title": "如何使用JavaScript如何使用JavaScript",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

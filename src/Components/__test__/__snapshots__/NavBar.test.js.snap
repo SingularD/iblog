@@ -1,0 +1,1266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试导航栏是否正常渲染 导航栏快照匹配 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="nav-bar-container"
+      >
+        <div
+          className="nav-bar-head-portrait"
+        >
+          <img
+            alt="头像"
+            src="portrait_mode.png"
+          />
+        </div>
+        <div
+          className="nav-bar-resume"
+        >
+          <h3>
+            Singular
+          </h3>
+          <p>
+            这是一段个人简介
+          </p>
+        </div>
+        <div
+          className="nav-bar-links"
+        >
+          <ul
+            className="list-group list-group-flush"
+          >
+            <li
+              className="list-group-item border-0"
+            >
+              <Link
+                to="/"
+              >
+                首页
+              </Link>
+            </li>
+            <li
+              className="list-group-item border-0"
+            >
+              <Link
+                to="/archive"
+              >
+                归档
+              </Link>
+            </li>
+            <li
+              className="list-group-item border-0"
+            >
+              <Link
+                to="/category"
+              >
+                专题
+              </Link>
+            </li>
+            <li
+              className="list-group-item border-0"
+            >
+              <Link
+                to="/friend-link"
+              >
+                友链
+              </Link>
+            </li>
+            <li
+              className="list-group-item border-0"
+            >
+              <Link
+                to="/about"
+              >
+                关于
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="nav-bar-hrefs"
+        >
+          <img
+            alt="github"
+            src="github.png"
+          />
+          <img
+            alt="rss"
+            src="rss.png"
+          />
+          <Link
+            to="/search"
+          >
+            <img
+              alt="search"
+              src="search.png"
+            />
+          </Link>
+        </div>
+      </div>,
+      "className": "col-lg-3 bg-light d-lg-block nav-bar",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="nav-bar-head-portrait"
+          >
+            <img
+              alt="头像"
+              src="portrait_mode.png"
+            />
+          </div>,
+          <div
+            className="nav-bar-resume"
+          >
+            <h3>
+              Singular
+            </h3>
+            <p>
+              这是一段个人简介
+            </p>
+          </div>,
+          <div
+            className="nav-bar-links"
+          >
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/"
+                >
+                  首页
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/archive"
+                >
+                  归档
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/category"
+                >
+                  专题
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/friend-link"
+                >
+                  友链
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/about"
+                >
+                  关于
+                </Link>
+              </li>
+            </ul>
+          </div>,
+          <div
+            className="nav-bar-hrefs"
+          >
+            <img
+              alt="github"
+              src="github.png"
+            />
+            <img
+              alt="rss"
+              src="rss.png"
+            />
+            <Link
+              to="/search"
+            >
+              <img
+                alt="search"
+                src="search.png"
+              />
+            </Link>
+          </div>,
+        ],
+        "className": "nav-bar-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="头像"
+              src="portrait_mode.png"
+            />,
+            "className": "nav-bar-head-portrait",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "头像",
+              "src": "portrait_mode.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Singular
+              </h3>,
+              <p>
+                这是一段个人简介
+              </p>,
+            ],
+            "className": "nav-bar-resume",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Singular",
+              },
+              "ref": null,
+              "rendered": "Singular",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "这是一段个人简介",
+              },
+              "ref": null,
+              "rendered": "这是一段个人简介",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/"
+                >
+                  首页
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/archive"
+                >
+                  归档
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/category"
+                >
+                  专题
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/friend-link"
+                >
+                  友链
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/about"
+                >
+                  关于
+                </Link>
+              </li>
+            </ul>,
+            "className": "nav-bar-links",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    首页
+                  </Link>
+                </li>,
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/archive"
+                  >
+                    归档
+                  </Link>
+                </li>,
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/category"
+                  >
+                    专题
+                  </Link>
+                </li>,
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/friend-link"
+                  >
+                    友链
+                  </Link>
+                </li>,
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/about"
+                  >
+                    关于
+                  </Link>
+                </li>,
+              ],
+              "className": "list-group list-group-flush",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    to="/"
+                  >
+                    首页
+                  </Link>,
+                  "className": "list-group-item border-0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "首页",
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": "首页",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    to="/archive"
+                  >
+                    归档
+                  </Link>,
+                  "className": "list-group-item border-0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "归档",
+                    "to": "/archive",
+                  },
+                  "ref": null,
+                  "rendered": "归档",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    to="/category"
+                  >
+                    专题
+                  </Link>,
+                  "className": "list-group-item border-0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "专题",
+                    "to": "/category",
+                  },
+                  "ref": null,
+                  "rendered": "专题",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    to="/friend-link"
+                  >
+                    友链
+                  </Link>,
+                  "className": "list-group-item border-0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "友链",
+                    "to": "/friend-link",
+                  },
+                  "ref": null,
+                  "rendered": "友链",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    to="/about"
+                  >
+                    关于
+                  </Link>,
+                  "className": "list-group-item border-0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "关于",
+                    "to": "/about",
+                  },
+                  "ref": null,
+                  "rendered": "关于",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="github"
+                src="github.png"
+              />,
+              <img
+                alt="rss"
+                src="rss.png"
+              />,
+              <Link
+                to="/search"
+              >
+                <img
+                  alt="search"
+                  src="search.png"
+                />
+              </Link>,
+            ],
+            "className": "nav-bar-hrefs",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "github",
+                "src": "github.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "rss",
+                "src": "rss.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <img
+                  alt="search"
+                  src="search.png"
+                />,
+                "to": "/search",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "search",
+                  "src": "search.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="nav-bar-container"
+        >
+          <div
+            className="nav-bar-head-portrait"
+          >
+            <img
+              alt="头像"
+              src="portrait_mode.png"
+            />
+          </div>
+          <div
+            className="nav-bar-resume"
+          >
+            <h3>
+              Singular
+            </h3>
+            <p>
+              这是一段个人简介
+            </p>
+          </div>
+          <div
+            className="nav-bar-links"
+          >
+            <ul
+              className="list-group list-group-flush"
+            >
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/"
+                >
+                  首页
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/archive"
+                >
+                  归档
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/category"
+                >
+                  专题
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/friend-link"
+                >
+                  友链
+                </Link>
+              </li>
+              <li
+                className="list-group-item border-0"
+              >
+                <Link
+                  to="/about"
+                >
+                  关于
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="nav-bar-hrefs"
+          >
+            <img
+              alt="github"
+              src="github.png"
+            />
+            <img
+              alt="rss"
+              src="rss.png"
+            />
+            <Link
+              to="/search"
+            >
+              <img
+                alt="search"
+                src="search.png"
+              />
+            </Link>
+          </div>
+        </div>,
+        "className": "col-lg-3 bg-light d-lg-block nav-bar",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="nav-bar-head-portrait"
+            >
+              <img
+                alt="头像"
+                src="portrait_mode.png"
+              />
+            </div>,
+            <div
+              className="nav-bar-resume"
+            >
+              <h3>
+                Singular
+              </h3>
+              <p>
+                这是一段个人简介
+              </p>
+            </div>,
+            <div
+              className="nav-bar-links"
+            >
+              <ul
+                className="list-group list-group-flush"
+              >
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    首页
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/archive"
+                  >
+                    归档
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/category"
+                  >
+                    专题
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/friend-link"
+                  >
+                    友链
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/about"
+                  >
+                    关于
+                  </Link>
+                </li>
+              </ul>
+            </div>,
+            <div
+              className="nav-bar-hrefs"
+            >
+              <img
+                alt="github"
+                src="github.png"
+              />
+              <img
+                alt="rss"
+                src="rss.png"
+              />
+              <Link
+                to="/search"
+              >
+                <img
+                  alt="search"
+                  src="search.png"
+                />
+              </Link>
+            </div>,
+          ],
+          "className": "nav-bar-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="头像"
+                src="portrait_mode.png"
+              />,
+              "className": "nav-bar-head-portrait",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "头像",
+                "src": "portrait_mode.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Singular
+                </h3>,
+                <p>
+                  这是一段个人简介
+                </p>,
+              ],
+              "className": "nav-bar-resume",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Singular",
+                },
+                "ref": null,
+                "rendered": "Singular",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "这是一段个人简介",
+                },
+                "ref": null,
+                "rendered": "这是一段个人简介",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="list-group list-group-flush"
+              >
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/"
+                  >
+                    首页
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/archive"
+                  >
+                    归档
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/category"
+                  >
+                    专题
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/friend-link"
+                  >
+                    友链
+                  </Link>
+                </li>
+                <li
+                  className="list-group-item border-0"
+                >
+                  <Link
+                    to="/about"
+                  >
+                    关于
+                  </Link>
+                </li>
+              </ul>,
+              "className": "nav-bar-links",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="list-group-item border-0"
+                  >
+                    <Link
+                      to="/"
+                    >
+                      首页
+                    </Link>
+                  </li>,
+                  <li
+                    className="list-group-item border-0"
+                  >
+                    <Link
+                      to="/archive"
+                    >
+                      归档
+                    </Link>
+                  </li>,
+                  <li
+                    className="list-group-item border-0"
+                  >
+                    <Link
+                      to="/category"
+                    >
+                      专题
+                    </Link>
+                  </li>,
+                  <li
+                    className="list-group-item border-0"
+                  >
+                    <Link
+                      to="/friend-link"
+                    >
+                      友链
+                    </Link>
+                  </li>,
+                  <li
+                    className="list-group-item border-0"
+                  >
+                    <Link
+                      to="/about"
+                    >
+                      关于
+                    </Link>
+                  </li>,
+                ],
+                "className": "list-group list-group-flush",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      to="/"
+                    >
+                      首页
+                    </Link>,
+                    "className": "list-group-item border-0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "首页",
+                      "to": "/",
+                    },
+                    "ref": null,
+                    "rendered": "首页",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      to="/archive"
+                    >
+                      归档
+                    </Link>,
+                    "className": "list-group-item border-0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "归档",
+                      "to": "/archive",
+                    },
+                    "ref": null,
+                    "rendered": "归档",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      to="/category"
+                    >
+                      专题
+                    </Link>,
+                    "className": "list-group-item border-0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "专题",
+                      "to": "/category",
+                    },
+                    "ref": null,
+                    "rendered": "专题",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      to="/friend-link"
+                    >
+                      友链
+                    </Link>,
+                    "className": "list-group-item border-0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "友链",
+                      "to": "/friend-link",
+                    },
+                    "ref": null,
+                    "rendered": "友链",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      to="/about"
+                    >
+                      关于
+                    </Link>,
+                    "className": "list-group-item border-0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "关于",
+                      "to": "/about",
+                    },
+                    "ref": null,
+                    "rendered": "关于",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="github"
+                  src="github.png"
+                />,
+                <img
+                  alt="rss"
+                  src="rss.png"
+                />,
+                <Link
+                  to="/search"
+                >
+                  <img
+                    alt="search"
+                    src="search.png"
+                  />
+                </Link>,
+              ],
+              "className": "nav-bar-hrefs",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "github",
+                  "src": "github.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "rss",
+                  "src": "rss.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    alt="search"
+                    src="search.png"
+                  />,
+                  "to": "/search",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "search",
+                    "src": "search.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
