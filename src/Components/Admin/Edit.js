@@ -53,7 +53,7 @@ class Edit extends React.Component{
             <h2>专题标签编辑：</h2>
             <div className="row justify-content-between">
               <div className="col">
-                <ul className="list-group">
+                <ul className="list-group category-group">
                   {
                     this.state.category.map((item, index) => (
                       <li key={index}>
@@ -87,7 +87,7 @@ class Edit extends React.Component{
           </div>
           <div>
             <h2>文章编辑：</h2>
-            <ul className="list-group list-group-flush">
+            <ul className="list-group list-group-flush post-group">
               {
                 this.state.postList.map((item, index) => (
                   <li key={index}>

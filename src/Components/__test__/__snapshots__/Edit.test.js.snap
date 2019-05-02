@@ -1,0 +1,3534 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检测编辑页面是否正常渲染 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Edit />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col-10"
+      >
+        <div>
+          <h2>
+            专题标签编辑：
+          </h2>
+          <div
+            className="row justify-content-between"
+          >
+            <div
+              className="col"
+            >
+              <ul
+                className="list-group category-group"
+              >
+                <li>
+                  <p>
+                    JAVA
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    HTTP
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    前端框架
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    MySQL
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="input-group mb-3"
+              >
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="输入新专题名"
+                  type="text"
+                />
+                <div
+                  className="input-group-append"
+                >
+                  <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+                  >
+                    添加
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>
+            文章编辑：
+          </h2>
+          <ul
+            className="list-group list-group-flush post-group"
+          >
+            <li>
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="passage-title col-8"
+                >
+                  <p>
+                    这是一篇文章这是一篇文章
+                    (
+                    2019-03-10
+                    )
+                  </p>
+                </div>
+                <div
+                  className="passage-edit col-2 row justify-content-between"
+                >
+                  <Link
+                    to="/admin/edit-item/123"
+                  >
+                    编辑
+                  </Link>
+                  <Link
+                    to="/admin/edit-item/"
+                  >
+                    删除
+                  </Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="passage-title col-8"
+                >
+                  <p>
+                    这是一篇文章这是一篇文章
+                    (
+                    2019-03-10
+                    )
+                  </p>
+                </div>
+                <div
+                  className="passage-edit col-2 row justify-content-between"
+                >
+                  <Link
+                    to="/admin/edit-item/123"
+                  >
+                    编辑
+                  </Link>
+                  <Link
+                    to="/admin/edit-item/"
+                  >
+                    删除
+                  </Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="passage-title col-8"
+                >
+                  <p>
+                    这是一篇文章这是一篇文章
+                    (
+                    2019-03-10
+                    )
+                  </p>
+                </div>
+                <div
+                  className="passage-edit col-2 row justify-content-between"
+                >
+                  <Link
+                    to="/admin/edit-item/123"
+                  >
+                    编辑
+                  </Link>
+                  <Link
+                    to="/admin/edit-item/"
+                  >
+                    删除
+                  </Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="passage-title col-8"
+                >
+                  <p>
+                    这是一篇文章这是一篇文章
+                    (
+                    2019-03-10
+                    )
+                  </p>
+                </div>
+                <div
+                  className="passage-edit col-2 row justify-content-between"
+                >
+                  <Link
+                    to="/admin/edit-item/123"
+                  >
+                    编辑
+                  </Link>
+                  <Link
+                    to="/admin/edit-item/"
+                  >
+                    删除
+                  </Link>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>,
+      "className": "edit col-10 justify-content-center row",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <h2>
+              专题标签编辑：
+            </h2>
+            <div
+              className="row justify-content-between"
+            >
+              <div
+                className="col"
+              >
+                <ul
+                  className="list-group category-group"
+                >
+                  <li>
+                    <p>
+                      JAVA
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      HTTP
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      前端框架
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      MySQL
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="input-group mb-3"
+                >
+                  <input
+                    className="form-control"
+                    onChange={[Function]}
+                    placeholder="输入新专题名"
+                    type="text"
+                  />
+                  <div
+                    className="input-group-append"
+                  >
+                    <button
+                      className="btn btn-primary"
+                      onClick={[Function]}
+                    >
+                      添加
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div>
+            <h2>
+              文章编辑：
+            </h2>
+            <ul
+              className="list-group list-group-flush post-group"
+            >
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>,
+        ],
+        "className": "col-10",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                专题标签编辑：
+              </h2>,
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="col"
+                >
+                  <ul
+                    className="list-group category-group"
+                  >
+                    <li>
+                      <p>
+                        JAVA
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        HTTP
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        前端框架
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        MySQL
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="col"
+                >
+                  <div
+                    className="input-group mb-3"
+                  >
+                    <input
+                      className="form-control"
+                      onChange={[Function]}
+                      placeholder="输入新专题名"
+                      type="text"
+                    />
+                    <div
+                      className="input-group-append"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        onClick={[Function]}
+                      >
+                        添加
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "专题标签编辑：",
+              },
+              "ref": null,
+              "rendered": "专题标签编辑：",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col"
+                  >
+                    <ul
+                      className="list-group category-group"
+                    >
+                      <li>
+                        <p>
+                          JAVA
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          HTTP
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          前端框架
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          MySQL
+                        </p>
+                      </li>
+                    </ul>
+                  </div>,
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="input-group mb-3"
+                    >
+                      <input
+                        className="form-control"
+                        onChange={[Function]}
+                        placeholder="输入新专题名"
+                        type="text"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-primary"
+                          onClick={[Function]}
+                        >
+                          添加
+                        </button>
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "className": "row justify-content-between",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ul
+                      className="list-group category-group"
+                    >
+                      <li>
+                        <p>
+                          JAVA
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          HTTP
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          前端框架
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          MySQL
+                        </p>
+                      </li>
+                    </ul>,
+                    "className": "col",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <li>
+                          <p>
+                            JAVA
+                          </p>
+                        </li>,
+                        <li>
+                          <p>
+                            HTTP
+                          </p>
+                        </li>,
+                        <li>
+                          <p>
+                            前端框架
+                          </p>
+                        </li>,
+                        <li>
+                          <p>
+                            MySQL
+                          </p>
+                        </li>,
+                      ],
+                      "className": "list-group category-group",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            JAVA
+                          </p>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "JAVA",
+                          },
+                          "ref": null,
+                          "rendered": "JAVA",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            HTTP
+                          </p>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "HTTP",
+                          },
+                          "ref": null,
+                          "rendered": "HTTP",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            前端框架
+                          </p>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "前端框架",
+                          },
+                          "ref": null,
+                          "rendered": "前端框架",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            MySQL
+                          </p>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "MySQL",
+                          },
+                          "ref": null,
+                          "rendered": "MySQL",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                    ],
+                    "type": "ul",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="input-group mb-3"
+                    >
+                      <input
+                        className="form-control"
+                        onChange={[Function]}
+                        placeholder="输入新专题名"
+                        type="text"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-primary"
+                          onClick={[Function]}
+                        >
+                          添加
+                        </button>
+                      </div>
+                    </div>,
+                    "className": "col",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="form-control"
+                          onChange={[Function]}
+                          placeholder="输入新专题名"
+                          type="text"
+                        />,
+                        <div
+                          className="input-group-append"
+                        >
+                          <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                          >
+                            添加
+                          </button>
+                        </div>,
+                      ],
+                      "className": "input-group mb-3",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "form-control",
+                          "onChange": [Function],
+                          "placeholder": "输入新专题名",
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                          >
+                            添加
+                          </button>,
+                          "className": "input-group-append",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "添加",
+                            "className": "btn btn-primary",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": "添加",
+                          "type": "button",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                文章编辑：
+              </h2>,
+              <ul
+                className="list-group list-group-flush post-group"
+              >
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+              </ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章编辑：",
+              },
+              "ref": null,
+              "rendered": "文章编辑：",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>,
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>,
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>,
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>,
+                ],
+                "className": "list-group list-group-flush post-group",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>,
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>,
+                      ],
+                      "className": "row justify-content-between",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>,
+                          "className": "passage-title col-8",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "这是一篇文章这是一篇文章",
+                            "(",
+                            "2019-03-10",
+                            ")",
+                          ],
+                          "type": "p",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>,
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>,
+                          ],
+                          "className": "passage-edit col-2 row justify-content-between",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "编辑",
+                              "to": "/admin/edit-item/123",
+                            },
+                            "ref": null,
+                            "rendered": "编辑",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "删除",
+                              "to": "/admin/edit-item/",
+                            },
+                            "ref": null,
+                            "rendered": "删除",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>,
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>,
+                      ],
+                      "className": "row justify-content-between",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>,
+                          "className": "passage-title col-8",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "这是一篇文章这是一篇文章",
+                            "(",
+                            "2019-03-10",
+                            ")",
+                          ],
+                          "type": "p",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>,
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>,
+                          ],
+                          "className": "passage-edit col-2 row justify-content-between",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "编辑",
+                              "to": "/admin/edit-item/123",
+                            },
+                            "ref": null,
+                            "rendered": "编辑",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "删除",
+                              "to": "/admin/edit-item/",
+                            },
+                            "ref": null,
+                            "rendered": "删除",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>,
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>,
+                      ],
+                      "className": "row justify-content-between",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>,
+                          "className": "passage-title col-8",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "这是一篇文章这是一篇文章",
+                            "(",
+                            "2019-03-10",
+                            ")",
+                          ],
+                          "type": "p",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>,
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>,
+                          ],
+                          "className": "passage-edit col-2 row justify-content-between",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "编辑",
+                              "to": "/admin/edit-item/123",
+                            },
+                            "ref": null,
+                            "rendered": "编辑",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "删除",
+                              "to": "/admin/edit-item/",
+                            },
+                            "ref": null,
+                            "rendered": "删除",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>,
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>,
+                      ],
+                      "className": "row justify-content-between",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>,
+                          "className": "passage-title col-8",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "这是一篇文章这是一篇文章",
+                            "(",
+                            "2019-03-10",
+                            ")",
+                          ],
+                          "type": "p",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>,
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>,
+                          ],
+                          "className": "passage-edit col-2 row justify-content-between",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "编辑",
+                              "to": "/admin/edit-item/123",
+                            },
+                            "ref": null,
+                            "rendered": "编辑",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "删除",
+                              "to": "/admin/edit-item/",
+                            },
+                            "ref": null,
+                            "rendered": "删除",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col-10"
+        >
+          <div>
+            <h2>
+              专题标签编辑：
+            </h2>
+            <div
+              className="row justify-content-between"
+            >
+              <div
+                className="col"
+              >
+                <ul
+                  className="list-group category-group"
+                >
+                  <li>
+                    <p>
+                      JAVA
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      HTTP
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      前端框架
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      MySQL
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="input-group mb-3"
+                >
+                  <input
+                    className="form-control"
+                    onChange={[Function]}
+                    placeholder="输入新专题名"
+                    type="text"
+                  />
+                  <div
+                    className="input-group-append"
+                  >
+                    <button
+                      className="btn btn-primary"
+                      onClick={[Function]}
+                    >
+                      添加
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>
+              文章编辑：
+            </h2>
+            <ul
+              className="list-group list-group-flush post-group"
+            >
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="passage-title col-8"
+                  >
+                    <p>
+                      这是一篇文章这是一篇文章
+                      (
+                      2019-03-10
+                      )
+                    </p>
+                  </div>
+                  <div
+                    className="passage-edit col-2 row justify-content-between"
+                  >
+                    <Link
+                      to="/admin/edit-item/123"
+                    >
+                      编辑
+                    </Link>
+                    <Link
+                      to="/admin/edit-item/"
+                    >
+                      删除
+                    </Link>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>,
+        "className": "edit col-10 justify-content-center row",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <h2>
+                专题标签编辑：
+              </h2>
+              <div
+                className="row justify-content-between"
+              >
+                <div
+                  className="col"
+                >
+                  <ul
+                    className="list-group category-group"
+                  >
+                    <li>
+                      <p>
+                        JAVA
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        HTTP
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        前端框架
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        MySQL
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  className="col"
+                >
+                  <div
+                    className="input-group mb-3"
+                  >
+                    <input
+                      className="form-control"
+                      onChange={[Function]}
+                      placeholder="输入新专题名"
+                      type="text"
+                    />
+                    <div
+                      className="input-group-append"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        onClick={[Function]}
+                      >
+                        添加
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div>
+              <h2>
+                文章编辑：
+              </h2>
+              <ul
+                className="list-group list-group-flush post-group"
+              >
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    className="row justify-content-between"
+                  >
+                    <div
+                      className="passage-title col-8"
+                    >
+                      <p>
+                        这是一篇文章这是一篇文章
+                        (
+                        2019-03-10
+                        )
+                      </p>
+                    </div>
+                    <div
+                      className="passage-edit col-2 row justify-content-between"
+                    >
+                      <Link
+                        to="/admin/edit-item/123"
+                      >
+                        编辑
+                      </Link>
+                      <Link
+                        to="/admin/edit-item/"
+                      >
+                        删除
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>,
+          ],
+          "className": "col-10",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  专题标签编辑：
+                </h2>,
+                <div
+                  className="row justify-content-between"
+                >
+                  <div
+                    className="col"
+                  >
+                    <ul
+                      className="list-group category-group"
+                    >
+                      <li>
+                        <p>
+                          JAVA
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          HTTP
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          前端框架
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          MySQL
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="input-group mb-3"
+                    >
+                      <input
+                        className="form-control"
+                        onChange={[Function]}
+                        placeholder="输入新专题名"
+                        type="text"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-primary"
+                          onClick={[Function]}
+                        >
+                          添加
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "专题标签编辑：",
+                },
+                "ref": null,
+                "rendered": "专题标签编辑：",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col"
+                    >
+                      <ul
+                        className="list-group category-group"
+                      >
+                        <li>
+                          <p>
+                            JAVA
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            HTTP
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            前端框架
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            MySQL
+                          </p>
+                        </li>
+                      </ul>
+                    </div>,
+                    <div
+                      className="col"
+                    >
+                      <div
+                        className="input-group mb-3"
+                      >
+                        <input
+                          className="form-control"
+                          onChange={[Function]}
+                          placeholder="输入新专题名"
+                          type="text"
+                        />
+                        <div
+                          className="input-group-append"
+                        >
+                          <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                          >
+                            添加
+                          </button>
+                        </div>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "row justify-content-between",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ul
+                        className="list-group category-group"
+                      >
+                        <li>
+                          <p>
+                            JAVA
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            HTTP
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            前端框架
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            MySQL
+                          </p>
+                        </li>
+                      </ul>,
+                      "className": "col",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li>
+                            <p>
+                              JAVA
+                            </p>
+                          </li>,
+                          <li>
+                            <p>
+                              HTTP
+                            </p>
+                          </li>,
+                          <li>
+                            <p>
+                              前端框架
+                            </p>
+                          </li>,
+                          <li>
+                            <p>
+                              MySQL
+                            </p>
+                          </li>,
+                        ],
+                        "className": "list-group category-group",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              JAVA
+                            </p>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "JAVA",
+                            },
+                            "ref": null,
+                            "rendered": "JAVA",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              HTTP
+                            </p>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "HTTP",
+                            },
+                            "ref": null,
+                            "rendered": "HTTP",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "2",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              前端框架
+                            </p>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "前端框架",
+                            },
+                            "ref": null,
+                            "rendered": "前端框架",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "3",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              MySQL
+                            </p>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "MySQL",
+                            },
+                            "ref": null,
+                            "rendered": "MySQL",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                      ],
+                      "type": "ul",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="input-group mb-3"
+                      >
+                        <input
+                          className="form-control"
+                          onChange={[Function]}
+                          placeholder="输入新专题名"
+                          type="text"
+                        />
+                        <div
+                          className="input-group-append"
+                        >
+                          <button
+                            className="btn btn-primary"
+                            onClick={[Function]}
+                          >
+                            添加
+                          </button>
+                        </div>
+                      </div>,
+                      "className": "col",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            className="form-control"
+                            onChange={[Function]}
+                            placeholder="输入新专题名"
+                            type="text"
+                          />,
+                          <div
+                            className="input-group-append"
+                          >
+                            <button
+                              className="btn btn-primary"
+                              onClick={[Function]}
+                            >
+                              添加
+                            </button>
+                          </div>,
+                        ],
+                        "className": "input-group mb-3",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "form-control",
+                            "onChange": [Function],
+                            "placeholder": "输入新专题名",
+                            "type": "text",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <button
+                              className="btn btn-primary"
+                              onClick={[Function]}
+                            >
+                              添加
+                            </button>,
+                            "className": "input-group-append",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "添加",
+                              "className": "btn btn-primary",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "添加",
+                            "type": "button",
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  文章编辑：
+                </h2>,
+                <ul
+                  className="list-group list-group-flush post-group"
+                >
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      className="row justify-content-between"
+                    >
+                      <div
+                        className="passage-title col-8"
+                      >
+                        <p>
+                          这是一篇文章这是一篇文章
+                          (
+                          2019-03-10
+                          )
+                        </p>
+                      </div>
+                      <div
+                        className="passage-edit col-2 row justify-content-between"
+                      >
+                        <Link
+                          to="/admin/edit-item/123"
+                        >
+                          编辑
+                        </Link>
+                        <Link
+                          to="/admin/edit-item/"
+                        >
+                          删除
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                </ul>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章编辑：",
+                },
+                "ref": null,
+                "rendered": "文章编辑：",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>
+                    </li>,
+                    <li>
+                      <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>
+                    </li>,
+                    <li>
+                      <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>
+                    </li>,
+                    <li>
+                      <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>
+                    </li>,
+                  ],
+                  "className": "list-group list-group-flush post-group",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="passage-title col-8"
+                          >
+                            <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>
+                          </div>,
+                          <div
+                            className="passage-edit col-2 row justify-content-between"
+                          >
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>
+                          </div>,
+                        ],
+                        "className": "row justify-content-between",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>,
+                            "className": "passage-title col-8",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                "这是一篇文章这是一篇文章",
+                                "(",
+                                "2019-03-10",
+                                ")",
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                            "type": "p",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <Link
+                                to="/admin/edit-item/123"
+                              >
+                                编辑
+                              </Link>,
+                              <Link
+                                to="/admin/edit-item/"
+                              >
+                                删除
+                              </Link>,
+                            ],
+                            "className": "passage-edit col-2 row justify-content-between",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "编辑",
+                                "to": "/admin/edit-item/123",
+                              },
+                              "ref": null,
+                              "rendered": "编辑",
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "删除",
+                                "to": "/admin/edit-item/",
+                              },
+                              "ref": null,
+                              "rendered": "删除",
+                              "type": [Function],
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="passage-title col-8"
+                          >
+                            <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>
+                          </div>,
+                          <div
+                            className="passage-edit col-2 row justify-content-between"
+                          >
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>
+                          </div>,
+                        ],
+                        "className": "row justify-content-between",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>,
+                            "className": "passage-title col-8",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                "这是一篇文章这是一篇文章",
+                                "(",
+                                "2019-03-10",
+                                ")",
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                            "type": "p",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <Link
+                                to="/admin/edit-item/123"
+                              >
+                                编辑
+                              </Link>,
+                              <Link
+                                to="/admin/edit-item/"
+                              >
+                                删除
+                              </Link>,
+                            ],
+                            "className": "passage-edit col-2 row justify-content-between",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "编辑",
+                                "to": "/admin/edit-item/123",
+                              },
+                              "ref": null,
+                              "rendered": "编辑",
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "删除",
+                                "to": "/admin/edit-item/",
+                              },
+                              "ref": null,
+                              "rendered": "删除",
+                              "type": [Function],
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="passage-title col-8"
+                          >
+                            <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>
+                          </div>,
+                          <div
+                            className="passage-edit col-2 row justify-content-between"
+                          >
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>
+                          </div>,
+                        ],
+                        "className": "row justify-content-between",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>,
+                            "className": "passage-title col-8",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                "这是一篇文章这是一篇文章",
+                                "(",
+                                "2019-03-10",
+                                ")",
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                            "type": "p",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <Link
+                                to="/admin/edit-item/123"
+                              >
+                                编辑
+                              </Link>,
+                              <Link
+                                to="/admin/edit-item/"
+                              >
+                                删除
+                              </Link>,
+                            ],
+                            "className": "passage-edit col-2 row justify-content-between",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "编辑",
+                                "to": "/admin/edit-item/123",
+                              },
+                              "ref": null,
+                              "rendered": "编辑",
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "删除",
+                                "to": "/admin/edit-item/",
+                              },
+                              "ref": null,
+                              "rendered": "删除",
+                              "type": [Function],
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row justify-content-between"
+                      >
+                        <div
+                          className="passage-title col-8"
+                        >
+                          <p>
+                            这是一篇文章这是一篇文章
+                            (
+                            2019-03-10
+                            )
+                          </p>
+                        </div>
+                        <div
+                          className="passage-edit col-2 row justify-content-between"
+                        >
+                          <Link
+                            to="/admin/edit-item/123"
+                          >
+                            编辑
+                          </Link>
+                          <Link
+                            to="/admin/edit-item/"
+                          >
+                            删除
+                          </Link>
+                        </div>
+                      </div>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="passage-title col-8"
+                          >
+                            <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>
+                          </div>,
+                          <div
+                            className="passage-edit col-2 row justify-content-between"
+                          >
+                            <Link
+                              to="/admin/edit-item/123"
+                            >
+                              编辑
+                            </Link>
+                            <Link
+                              to="/admin/edit-item/"
+                            >
+                              删除
+                            </Link>
+                          </div>,
+                        ],
+                        "className": "row justify-content-between",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              这是一篇文章这是一篇文章
+                              (
+                              2019-03-10
+                              )
+                            </p>,
+                            "className": "passage-title col-8",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                "这是一篇文章这是一篇文章",
+                                "(",
+                                "2019-03-10",
+                                ")",
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "这是一篇文章这是一篇文章",
+                              "(",
+                              "2019-03-10",
+                              ")",
+                            ],
+                            "type": "p",
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <Link
+                                to="/admin/edit-item/123"
+                              >
+                                编辑
+                              </Link>,
+                              <Link
+                                to="/admin/edit-item/"
+                              >
+                                删除
+                              </Link>,
+                            ],
+                            "className": "passage-edit col-2 row justify-content-between",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "编辑",
+                                "to": "/admin/edit-item/123",
+                              },
+                              "ref": null,
+                              "rendered": "编辑",
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "children": "删除",
+                                "to": "/admin/edit-item/",
+                              },
+                              "ref": null,
+                              "rendered": "删除",
+                              "type": [Function],
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

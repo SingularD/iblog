@@ -1,0 +1,3307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检测文章写作页面与文章编辑页面是否渲染正常 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Writing />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col-10 writing-content pt-5"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlInput1"
+          >
+            文章标题
+          </label>
+          <input
+            className="form-control"
+            id="exampleFormControlInput1"
+            name="postTitle"
+            onChange={[Function]}
+            placeholder="文章标题"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlSelect1"
+          >
+            文章专题
+          </label>
+          <select
+            className="form-control"
+            id="exampleFormControlSelect1"
+            name="category"
+            onChange={[Function]}
+          >
+            <option>
+              HTTP
+            </option>
+            <option>
+              JAVA
+            </option>
+            <option>
+              ReactJs
+            </option>
+            <option>
+              Spring Boot
+            </option>
+            <option>
+              其它
+            </option>
+          </select>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlTextarea1"
+          >
+            文章简介
+          </label>
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            name="abstract"
+            onChange={[Function]}
+            placeholder="文章简介"
+            rows="1"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlTextarea1"
+          >
+            文章内容
+          </label>
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            name="postContent"
+            onChange={[Function]}
+            placeholder="文章标题"
+            rows="3"
+          />
+        </div>
+        <div
+          className="writing-preview"
+        >
+          <h2>
+            预览:
+          </h2>
+        </div>
+        <div
+          className="row justify-content-around"
+        >
+          <button
+            className="btn btn-primary col-3"
+            onClick={[Function]}
+          >
+            预览
+          </button>
+          <button
+            className="btn btn-success col-3"
+          >
+            提交
+          </button>
+        </div>
+        <div
+          className="p-5 mt-5 border"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "",
+            }
+          }
+        />
+      </div>,
+      "className": "writing col-10 justify-content-center row",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlInput1"
+            >
+              文章标题
+            </label>
+            <input
+              className="form-control"
+              id="exampleFormControlInput1"
+              name="postTitle"
+              onChange={[Function]}
+              placeholder="文章标题"
+              type="email"
+            />
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlSelect1"
+            >
+              文章专题
+            </label>
+            <select
+              className="form-control"
+              id="exampleFormControlSelect1"
+              name="category"
+              onChange={[Function]}
+            >
+              <option>
+                HTTP
+              </option>
+              <option>
+                JAVA
+              </option>
+              <option>
+                ReactJs
+              </option>
+              <option>
+                Spring Boot
+              </option>
+              <option>
+                其它
+              </option>
+            </select>
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章简介
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              name="abstract"
+              onChange={[Function]}
+              placeholder="文章简介"
+              rows="1"
+            />
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章内容
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              name="postContent"
+              onChange={[Function]}
+              placeholder="文章标题"
+              rows="3"
+            />
+          </div>,
+          <div
+            className="writing-preview"
+          >
+            <h2>
+              预览:
+            </h2>
+          </div>,
+          <div
+            className="row justify-content-around"
+          >
+            <button
+              className="btn btn-primary col-3"
+              onClick={[Function]}
+            >
+              预览
+            </button>
+            <button
+              className="btn btn-success col-3"
+            >
+              提交
+            </button>
+          </div>,
+          <div
+            className="p-5 mt-5 border"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "",
+              }
+            }
+          />,
+        ],
+        "className": "col-10 writing-content pt-5",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlInput1"
+              >
+                文章标题
+              </label>,
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="postTitle"
+                onChange={[Function]}
+                placeholder="文章标题"
+                type="email"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章标题",
+                "htmlFor": "exampleFormControlInput1",
+              },
+              "ref": null,
+              "rendered": "文章标题",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "exampleFormControlInput1",
+                "name": "postTitle",
+                "onChange": [Function],
+                "placeholder": "文章标题",
+                "type": "email",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlSelect1"
+              >
+                文章专题
+              </label>,
+              <select
+                className="form-control"
+                id="exampleFormControlSelect1"
+                name="category"
+                onChange={[Function]}
+              >
+                <option>
+                  HTTP
+                </option>
+                <option>
+                  JAVA
+                </option>
+                <option>
+                  ReactJs
+                </option>
+                <option>
+                  Spring Boot
+                </option>
+                <option>
+                  其它
+                </option>
+              </select>,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章专题",
+                "htmlFor": "exampleFormControlSelect1",
+              },
+              "ref": null,
+              "rendered": "文章专题",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option>
+                    HTTP
+                  </option>,
+                  <option>
+                    JAVA
+                  </option>,
+                  <option>
+                    ReactJs
+                  </option>,
+                  <option>
+                    Spring Boot
+                  </option>,
+                  <option>
+                    其它
+                  </option>,
+                ],
+                "className": "form-control",
+                "id": "exampleFormControlSelect1",
+                "name": "category",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HTTP",
+                  },
+                  "ref": null,
+                  "rendered": "HTTP",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JAVA",
+                  },
+                  "ref": null,
+                  "rendered": "JAVA",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ReactJs",
+                  },
+                  "ref": null,
+                  "rendered": "ReactJs",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Spring Boot",
+                  },
+                  "ref": null,
+                  "rendered": "Spring Boot",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "其它",
+                  },
+                  "ref": null,
+                  "rendered": "其它",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章简介
+              </label>,
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="abstract"
+                onChange={[Function]}
+                placeholder="文章简介"
+                rows="1"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章简介",
+                "htmlFor": "exampleFormControlTextarea1",
+              },
+              "ref": null,
+              "rendered": "文章简介",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "exampleFormControlTextarea1",
+                "name": "abstract",
+                "onChange": [Function],
+                "placeholder": "文章简介",
+                "rows": "1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章内容
+              </label>,
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="postContent"
+                onChange={[Function]}
+                placeholder="文章标题"
+                rows="3"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章内容",
+                "htmlFor": "exampleFormControlTextarea1",
+              },
+              "ref": null,
+              "rendered": "文章内容",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "exampleFormControlTextarea1",
+                "name": "postContent",
+                "onChange": [Function],
+                "placeholder": "文章标题",
+                "rows": "3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              预览:
+            </h2>,
+            "className": "writing-preview",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "预览:",
+            },
+            "ref": null,
+            "rendered": "预览:",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-primary col-3"
+                onClick={[Function]}
+              >
+                预览
+              </button>,
+              <button
+                className="btn btn-success col-3"
+              >
+                提交
+              </button>,
+            ],
+            "className": "row justify-content-around",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "预览",
+                "className": "btn btn-primary col-3",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "预览",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "提交",
+                "className": "btn btn-success col-3",
+              },
+              "ref": null,
+              "rendered": "提交",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "p-5 mt-5 border",
+            "dangerouslySetInnerHTML": Object {
+              "__html": "",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col-10 writing-content pt-5"
+        >
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlInput1"
+            >
+              文章标题
+            </label>
+            <input
+              className="form-control"
+              id="exampleFormControlInput1"
+              name="postTitle"
+              onChange={[Function]}
+              placeholder="文章标题"
+              type="email"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlSelect1"
+            >
+              文章专题
+            </label>
+            <select
+              className="form-control"
+              id="exampleFormControlSelect1"
+              name="category"
+              onChange={[Function]}
+            >
+              <option>
+                HTTP
+              </option>
+              <option>
+                JAVA
+              </option>
+              <option>
+                ReactJs
+              </option>
+              <option>
+                Spring Boot
+              </option>
+              <option>
+                其它
+              </option>
+            </select>
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章简介
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              name="abstract"
+              onChange={[Function]}
+              placeholder="文章简介"
+              rows="1"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章内容
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              name="postContent"
+              onChange={[Function]}
+              placeholder="文章标题"
+              rows="3"
+            />
+          </div>
+          <div
+            className="writing-preview"
+          >
+            <h2>
+              预览:
+            </h2>
+          </div>
+          <div
+            className="row justify-content-around"
+          >
+            <button
+              className="btn btn-primary col-3"
+              onClick={[Function]}
+            >
+              预览
+            </button>
+            <button
+              className="btn btn-success col-3"
+            >
+              提交
+            </button>
+          </div>
+          <div
+            className="p-5 mt-5 border"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "",
+              }
+            }
+          />
+        </div>,
+        "className": "writing col-10 justify-content-center row",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlInput1"
+              >
+                文章标题
+              </label>
+              <input
+                className="form-control"
+                id="exampleFormControlInput1"
+                name="postTitle"
+                onChange={[Function]}
+                placeholder="文章标题"
+                type="email"
+              />
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlSelect1"
+              >
+                文章专题
+              </label>
+              <select
+                className="form-control"
+                id="exampleFormControlSelect1"
+                name="category"
+                onChange={[Function]}
+              >
+                <option>
+                  HTTP
+                </option>
+                <option>
+                  JAVA
+                </option>
+                <option>
+                  ReactJs
+                </option>
+                <option>
+                  Spring Boot
+                </option>
+                <option>
+                  其它
+                </option>
+              </select>
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章简介
+              </label>
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="abstract"
+                onChange={[Function]}
+                placeholder="文章简介"
+                rows="1"
+              />
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章内容
+              </label>
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                name="postContent"
+                onChange={[Function]}
+                placeholder="文章标题"
+                rows="3"
+              />
+            </div>,
+            <div
+              className="writing-preview"
+            >
+              <h2>
+                预览:
+              </h2>
+            </div>,
+            <div
+              className="row justify-content-around"
+            >
+              <button
+                className="btn btn-primary col-3"
+                onClick={[Function]}
+              >
+                预览
+              </button>
+              <button
+                className="btn btn-success col-3"
+              >
+                提交
+              </button>
+            </div>,
+            <div
+              className="p-5 mt-5 border"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "",
+                }
+              }
+            />,
+          ],
+          "className": "col-10 writing-content pt-5",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlInput1"
+                >
+                  文章标题
+                </label>,
+                <input
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  name="postTitle"
+                  onChange={[Function]}
+                  placeholder="文章标题"
+                  type="email"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章标题",
+                  "htmlFor": "exampleFormControlInput1",
+                },
+                "ref": null,
+                "rendered": "文章标题",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "id": "exampleFormControlInput1",
+                  "name": "postTitle",
+                  "onChange": [Function],
+                  "placeholder": "文章标题",
+                  "type": "email",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlSelect1"
+                >
+                  文章专题
+                </label>,
+                <select
+                  className="form-control"
+                  id="exampleFormControlSelect1"
+                  name="category"
+                  onChange={[Function]}
+                >
+                  <option>
+                    HTTP
+                  </option>
+                  <option>
+                    JAVA
+                  </option>
+                  <option>
+                    ReactJs
+                  </option>
+                  <option>
+                    Spring Boot
+                  </option>
+                  <option>
+                    其它
+                  </option>
+                </select>,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章专题",
+                  "htmlFor": "exampleFormControlSelect1",
+                },
+                "ref": null,
+                "rendered": "文章专题",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option>
+                      HTTP
+                    </option>,
+                    <option>
+                      JAVA
+                    </option>,
+                    <option>
+                      ReactJs
+                    </option>,
+                    <option>
+                      Spring Boot
+                    </option>,
+                    <option>
+                      其它
+                    </option>,
+                  ],
+                  "className": "form-control",
+                  "id": "exampleFormControlSelect1",
+                  "name": "category",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "HTTP",
+                    },
+                    "ref": null,
+                    "rendered": "HTTP",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "JAVA",
+                    },
+                    "ref": null,
+                    "rendered": "JAVA",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ReactJs",
+                    },
+                    "ref": null,
+                    "rendered": "ReactJs",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Spring Boot",
+                    },
+                    "ref": null,
+                    "rendered": "Spring Boot",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "其它",
+                    },
+                    "ref": null,
+                    "rendered": "其它",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlTextarea1"
+                >
+                  文章简介
+                </label>,
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="abstract"
+                  onChange={[Function]}
+                  placeholder="文章简介"
+                  rows="1"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章简介",
+                  "htmlFor": "exampleFormControlTextarea1",
+                },
+                "ref": null,
+                "rendered": "文章简介",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "id": "exampleFormControlTextarea1",
+                  "name": "abstract",
+                  "onChange": [Function],
+                  "placeholder": "文章简介",
+                  "rows": "1",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlTextarea1"
+                >
+                  文章内容
+                </label>,
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="postContent"
+                  onChange={[Function]}
+                  placeholder="文章标题"
+                  rows="3"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章内容",
+                  "htmlFor": "exampleFormControlTextarea1",
+                },
+                "ref": null,
+                "rendered": "文章内容",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "id": "exampleFormControlTextarea1",
+                  "name": "postContent",
+                  "onChange": [Function],
+                  "placeholder": "文章标题",
+                  "rows": "3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                预览:
+              </h2>,
+              "className": "writing-preview",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "预览:",
+              },
+              "ref": null,
+              "rendered": "预览:",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="btn btn-primary col-3"
+                  onClick={[Function]}
+                >
+                  预览
+                </button>,
+                <button
+                  className="btn btn-success col-3"
+                >
+                  提交
+                </button>,
+              ],
+              "className": "row justify-content-around",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "预览",
+                  "className": "btn btn-primary col-3",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "预览",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "提交",
+                  "className": "btn btn-success col-3",
+                },
+                "ref": null,
+                "rendered": "提交",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "p-5 mt-5 border",
+              "dangerouslySetInnerHTML": Object {
+                "__html": "",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`检测文章写作页面与文章编辑页面是否渲染正常 匹配快照 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditItem />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col-10 writing-content pt-5"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlInput1"
+          >
+            文章标题
+          </label>
+          <input
+            className="form-control"
+            defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+            disabled={true}
+            id="exampleFormControlInput1"
+            placeholder="文章标题"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlSelect1"
+          >
+            文章专题
+          </label>
+          <select
+            className="form-control"
+            disabled={true}
+            id="exampleFormControlSelect1"
+          >
+            <option>
+              HTTP
+            </option>
+            <option>
+              JAVA
+            </option>
+            <option>
+              ReactJs
+            </option>
+            <option>
+              Spring Boot
+            </option>
+            <option>
+              其它
+            </option>
+          </select>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlTextarea1"
+          >
+            文章简介
+          </label>
+          <textarea
+            className="form-control"
+            defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+            id="exampleFormControlTextarea1"
+            onChange={[Function]}
+            placeholder="文章简介"
+            rows="1"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="exampleFormControlTextarea1"
+          >
+            文章内容
+          </label>
+          <textarea
+            className="form-control"
+            defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+            id="exampleFormControlTextarea1"
+            onChange={[Function]}
+            placeholder="文章内容"
+            rows="3"
+          />
+        </div>
+        <div
+          className="writing-preview"
+        >
+          <h2>
+            预览:
+          </h2>
+        </div>
+        <div
+          className="row justify-content-around"
+        >
+          <button
+            className="btn btn-primary col-3"
+            onClick={[Function]}
+          >
+            预览
+          </button>
+          <button
+            className="btn btn-success col-3"
+          >
+            提交
+          </button>
+        </div>
+        <div
+          className="p-5 mt-5 border"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "",
+            }
+          }
+        />
+      </div>,
+      "className": "writing col-10 justify-content-center row",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlInput1"
+            >
+              文章标题
+            </label>
+            <input
+              className="form-control"
+              defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+              disabled={true}
+              id="exampleFormControlInput1"
+              placeholder="文章标题"
+              type="email"
+            />
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlSelect1"
+            >
+              文章专题
+            </label>
+            <select
+              className="form-control"
+              disabled={true}
+              id="exampleFormControlSelect1"
+            >
+              <option>
+                HTTP
+              </option>
+              <option>
+                JAVA
+              </option>
+              <option>
+                ReactJs
+              </option>
+              <option>
+                Spring Boot
+              </option>
+              <option>
+                其它
+              </option>
+            </select>
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章简介
+            </label>
+            <textarea
+              className="form-control"
+              defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+              id="exampleFormControlTextarea1"
+              onChange={[Function]}
+              placeholder="文章简介"
+              rows="1"
+            />
+          </div>,
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章内容
+            </label>
+            <textarea
+              className="form-control"
+              defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+              id="exampleFormControlTextarea1"
+              onChange={[Function]}
+              placeholder="文章内容"
+              rows="3"
+            />
+          </div>,
+          <div
+            className="writing-preview"
+          >
+            <h2>
+              预览:
+            </h2>
+          </div>,
+          <div
+            className="row justify-content-around"
+          >
+            <button
+              className="btn btn-primary col-3"
+              onClick={[Function]}
+            >
+              预览
+            </button>
+            <button
+              className="btn btn-success col-3"
+            >
+              提交
+            </button>
+          </div>,
+          <div
+            className="p-5 mt-5 border"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "",
+              }
+            }
+          />,
+        ],
+        "className": "col-10 writing-content pt-5",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlInput1"
+              >
+                文章标题
+              </label>,
+              <input
+                className="form-control"
+                defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+                disabled={true}
+                id="exampleFormControlInput1"
+                placeholder="文章标题"
+                type="email"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章标题",
+                "htmlFor": "exampleFormControlInput1",
+              },
+              "ref": null,
+              "rendered": "文章标题",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "defaultValue": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                "disabled": true,
+                "id": "exampleFormControlInput1",
+                "placeholder": "文章标题",
+                "type": "email",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlSelect1"
+              >
+                文章专题
+              </label>,
+              <select
+                className="form-control"
+                disabled={true}
+                id="exampleFormControlSelect1"
+              >
+                <option>
+                  HTTP
+                </option>
+                <option>
+                  JAVA
+                </option>
+                <option>
+                  ReactJs
+                </option>
+                <option>
+                  Spring Boot
+                </option>
+                <option>
+                  其它
+                </option>
+              </select>,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章专题",
+                "htmlFor": "exampleFormControlSelect1",
+              },
+              "ref": null,
+              "rendered": "文章专题",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option>
+                    HTTP
+                  </option>,
+                  <option>
+                    JAVA
+                  </option>,
+                  <option>
+                    ReactJs
+                  </option>,
+                  <option>
+                    Spring Boot
+                  </option>,
+                  <option>
+                    其它
+                  </option>,
+                ],
+                "className": "form-control",
+                "disabled": true,
+                "id": "exampleFormControlSelect1",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HTTP",
+                  },
+                  "ref": null,
+                  "rendered": "HTTP",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JAVA",
+                  },
+                  "ref": null,
+                  "rendered": "JAVA",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ReactJs",
+                  },
+                  "ref": null,
+                  "rendered": "ReactJs",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Spring Boot",
+                  },
+                  "ref": null,
+                  "rendered": "Spring Boot",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "其它",
+                  },
+                  "ref": null,
+                  "rendered": "其它",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章简介
+              </label>,
+              <textarea
+                className="form-control"
+                defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                id="exampleFormControlTextarea1"
+                onChange={[Function]}
+                placeholder="文章简介"
+                rows="1"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章简介",
+                "htmlFor": "exampleFormControlTextarea1",
+              },
+              "ref": null,
+              "rendered": "文章简介",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "defaultValue": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                "id": "exampleFormControlTextarea1",
+                "onChange": [Function],
+                "placeholder": "文章简介",
+                "rows": "1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章内容
+              </label>,
+              <textarea
+                className="form-control"
+                defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+                id="exampleFormControlTextarea1"
+                onChange={[Function]}
+                placeholder="文章内容"
+                rows="3"
+              />,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "文章内容",
+                "htmlFor": "exampleFormControlTextarea1",
+              },
+              "ref": null,
+              "rendered": "文章内容",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "defaultValue": "## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+",
+                "id": "exampleFormControlTextarea1",
+                "onChange": [Function],
+                "placeholder": "文章内容",
+                "rows": "3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              预览:
+            </h2>,
+            "className": "writing-preview",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "预览:",
+            },
+            "ref": null,
+            "rendered": "预览:",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-primary col-3"
+                onClick={[Function]}
+              >
+                预览
+              </button>,
+              <button
+                className="btn btn-success col-3"
+              >
+                提交
+              </button>,
+            ],
+            "className": "row justify-content-around",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "预览",
+                "className": "btn btn-primary col-3",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "预览",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "提交",
+                "className": "btn btn-success col-3",
+              },
+              "ref": null,
+              "rendered": "提交",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "p-5 mt-5 border",
+            "dangerouslySetInnerHTML": Object {
+              "__html": "",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col-10 writing-content pt-5"
+        >
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlInput1"
+            >
+              文章标题
+            </label>
+            <input
+              className="form-control"
+              defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+              disabled={true}
+              id="exampleFormControlInput1"
+              placeholder="文章标题"
+              type="email"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlSelect1"
+            >
+              文章专题
+            </label>
+            <select
+              className="form-control"
+              disabled={true}
+              id="exampleFormControlSelect1"
+            >
+              <option>
+                HTTP
+              </option>
+              <option>
+                JAVA
+              </option>
+              <option>
+                ReactJs
+              </option>
+              <option>
+                Spring Boot
+              </option>
+              <option>
+                其它
+              </option>
+            </select>
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章简介
+            </label>
+            <textarea
+              className="form-control"
+              defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+              id="exampleFormControlTextarea1"
+              onChange={[Function]}
+              placeholder="文章简介"
+              rows="1"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="exampleFormControlTextarea1"
+            >
+              文章内容
+            </label>
+            <textarea
+              className="form-control"
+              defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+              id="exampleFormControlTextarea1"
+              onChange={[Function]}
+              placeholder="文章内容"
+              rows="3"
+            />
+          </div>
+          <div
+            className="writing-preview"
+          >
+            <h2>
+              预览:
+            </h2>
+          </div>
+          <div
+            className="row justify-content-around"
+          >
+            <button
+              className="btn btn-primary col-3"
+              onClick={[Function]}
+            >
+              预览
+            </button>
+            <button
+              className="btn btn-success col-3"
+            >
+              提交
+            </button>
+          </div>
+          <div
+            className="p-5 mt-5 border"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "",
+              }
+            }
+          />
+        </div>,
+        "className": "writing col-10 justify-content-center row",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlInput1"
+              >
+                文章标题
+              </label>
+              <input
+                className="form-control"
+                defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+                disabled={true}
+                id="exampleFormControlInput1"
+                placeholder="文章标题"
+                type="email"
+              />
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlSelect1"
+              >
+                文章专题
+              </label>
+              <select
+                className="form-control"
+                disabled={true}
+                id="exampleFormControlSelect1"
+              >
+                <option>
+                  HTTP
+                </option>
+                <option>
+                  JAVA
+                </option>
+                <option>
+                  ReactJs
+                </option>
+                <option>
+                  Spring Boot
+                </option>
+                <option>
+                  其它
+                </option>
+              </select>
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章简介
+              </label>
+              <textarea
+                className="form-control"
+                defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                id="exampleFormControlTextarea1"
+                onChange={[Function]}
+                placeholder="文章简介"
+                rows="1"
+              />
+            </div>,
+            <div
+              className="form-group"
+            >
+              <label
+                htmlFor="exampleFormControlTextarea1"
+              >
+                文章内容
+              </label>
+              <textarea
+                className="form-control"
+                defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+                id="exampleFormControlTextarea1"
+                onChange={[Function]}
+                placeholder="文章内容"
+                rows="3"
+              />
+            </div>,
+            <div
+              className="writing-preview"
+            >
+              <h2>
+                预览:
+              </h2>
+            </div>,
+            <div
+              className="row justify-content-around"
+            >
+              <button
+                className="btn btn-primary col-3"
+                onClick={[Function]}
+              >
+                预览
+              </button>
+              <button
+                className="btn btn-success col-3"
+              >
+                提交
+              </button>
+            </div>,
+            <div
+              className="p-5 mt-5 border"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "",
+                }
+              }
+            />,
+          ],
+          "className": "col-10 writing-content pt-5",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlInput1"
+                >
+                  文章标题
+                </label>,
+                <input
+                  className="form-control"
+                  defaultValue="如何为 ThinkJS 3 网站优化 TTFB 时间"
+                  disabled={true}
+                  id="exampleFormControlInput1"
+                  placeholder="文章标题"
+                  type="email"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章标题",
+                  "htmlFor": "exampleFormControlInput1",
+                },
+                "ref": null,
+                "rendered": "文章标题",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "defaultValue": "如何为 ThinkJS 3 网站优化 TTFB 时间",
+                  "disabled": true,
+                  "id": "exampleFormControlInput1",
+                  "placeholder": "文章标题",
+                  "type": "email",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlSelect1"
+                >
+                  文章专题
+                </label>,
+                <select
+                  className="form-control"
+                  disabled={true}
+                  id="exampleFormControlSelect1"
+                >
+                  <option>
+                    HTTP
+                  </option>
+                  <option>
+                    JAVA
+                  </option>
+                  <option>
+                    ReactJs
+                  </option>
+                  <option>
+                    Spring Boot
+                  </option>
+                  <option>
+                    其它
+                  </option>
+                </select>,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章专题",
+                  "htmlFor": "exampleFormControlSelect1",
+                },
+                "ref": null,
+                "rendered": "文章专题",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option>
+                      HTTP
+                    </option>,
+                    <option>
+                      JAVA
+                    </option>,
+                    <option>
+                      ReactJs
+                    </option>,
+                    <option>
+                      Spring Boot
+                    </option>,
+                    <option>
+                      其它
+                    </option>,
+                  ],
+                  "className": "form-control",
+                  "disabled": true,
+                  "id": "exampleFormControlSelect1",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "HTTP",
+                    },
+                    "ref": null,
+                    "rendered": "HTTP",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "JAVA",
+                    },
+                    "ref": null,
+                    "rendered": "JAVA",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ReactJs",
+                    },
+                    "ref": null,
+                    "rendered": "ReactJs",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Spring Boot",
+                    },
+                    "ref": null,
+                    "rendered": "Spring Boot",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "其它",
+                    },
+                    "ref": null,
+                    "rendered": "其它",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlTextarea1"
+                >
+                  文章简介
+                </label>,
+                <textarea
+                  className="form-control"
+                  defaultValue="今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。"
+                  id="exampleFormControlTextarea1"
+                  onChange={[Function]}
+                  placeholder="文章简介"
+                  rows="1"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章简介",
+                  "htmlFor": "exampleFormControlTextarea1",
+                },
+                "ref": null,
+                "rendered": "文章简介",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "defaultValue": "今年早些时候，奇舞团开源的 Node.js 框架 ── ThinkJS 迎来了她的 3.0 版本。 尽管今年我很少更新博客，但「每次 ThinkJS 发布大版本，我都要更新博客程序」 的老传统还是不能丢。所以，你现在看到的这个博客，已经是基于 ThinkJS 3 全面重构后的新版。",
+                  "id": "exampleFormControlTextarea1",
+                  "onChange": [Function],
+                  "placeholder": "文章简介",
+                  "rows": "1",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="exampleFormControlTextarea1"
+                >
+                  文章内容
+                </label>,
+                <textarea
+                  className="form-control"
+                  defaultValue="## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+"
+                  id="exampleFormControlTextarea1"
+                  onChange={[Function]}
+                  placeholder="文章内容"
+                  rows="3"
+                />,
+              ],
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "文章内容",
+                  "htmlFor": "exampleFormControlTextarea1",
+                },
+                "ref": null,
+                "rendered": "文章内容",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "defaultValue": "## JS框架学习
+
+### Vue.js
+
+#### 安装
+
+\`\`\`shell
+npm install -g vue-cli
+
+vue init webpack projectName
+cd projectName
+npm run dev
+\`\`\`
+
+
+
+#### 基础知识
+
+##### 生命周期
+
+由上图我们可以看出：在vue中有八个生命周期的钩子，它们分别是：
+
+1. beforeCreate
+2. create
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+
+那么它们之中最重要的就是第四个，mounted，它所代表的是对象挂载之后的这么一个生命周期，相当于原生js中loaded，就是在dom节点挂载之后，开始渲染页面之前的这么一个生命周期，比如我们的ajax请求大部分可能就要在这里来进行
+
+
+
+#### 选项数据
+
+* data
+* computed
+* methods
+
+首先data属性是管理全局变量的一个对象，在html标签中，要使用它其中的变量只需要\`{{ 变量名即可 }}\`,我们可以把它想做对象的解构赋值，而且在这个\`{{}}\`中我们可以输入js表达式，但是要注意的是这里使用的两层花括号；
+
+computed和methods是两个对象，我们在模板主要使用他们的方法，所以在书写的时候data是函数形式，而他们两个则是对象
+
+\`\`\`vue
+<template>
+    <div>
+      <h1>选项数据</h1>
+      <h1>---------------------------</h1>
+      <h1>data: {{ message }}</h1>
+      <h1>---------------------------</h1>
+      <h1>computed:  {{ count }}</h1>
+      <h1>---------------------------</h1>
+      <h1 @click=\\"sayHi('hello')\\">methods!</h1>
+    </div>
+</template>
+
+<script>
+  export default {
+    name: \\"test\\",
+    data() {
+      return {
+        message: '我是李松蔚',
+        num: 20
+      }
+    },
+    computed: {
+      count() {
+        return this.num + 10;
+      }
+    },
+    methods: {
+      sayHi(params) {
+        alert(params)
+      }
+    }
+  }
+</script>
+\`\`\`
+
+",
+                  "id": "exampleFormControlTextarea1",
+                  "onChange": [Function],
+                  "placeholder": "文章内容",
+                  "rows": "3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                预览:
+              </h2>,
+              "className": "writing-preview",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "预览:",
+              },
+              "ref": null,
+              "rendered": "预览:",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="btn btn-primary col-3"
+                  onClick={[Function]}
+                >
+                  预览
+                </button>,
+                <button
+                  className="btn btn-success col-3"
+                >
+                  提交
+                </button>,
+              ],
+              "className": "row justify-content-around",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "预览",
+                  "className": "btn btn-primary col-3",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "预览",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "提交",
+                  "className": "btn btn-success col-3",
+                },
+                "ref": null,
+                "rendered": "提交",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "p-5 mt-5 border",
+              "dangerouslySetInnerHTML": Object {
+                "__html": "",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

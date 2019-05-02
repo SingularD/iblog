@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`检测登录界面是否正常渲染 匹配快照 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="login-input-group"
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="input-group-prepend"
+          >
+            <span
+              className="input-group-text d-none d-lg-block"
+              id="basic-addon1"
+            >
+              Username
+            </span>
+          </div>
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Username"
+            type="text"
+          />
+        </div>
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="input-group-prepend"
+          >
+            <span
+              className="input-group-text d-none d-lg-block"
+              id="basic-addon1"
+            >
+              Password
+            </span>
+          </div>
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+        <div>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            登录
+          </button>
+          
+        </div>
+      </div>,
+      "className": "login-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text d-none d-lg-block"
+                id="basic-addon1"
+              >
+                Username
+              </span>
+            </div>
+            <input
+              className="form-control"
+              onChange={[Function]}
+              placeholder="Username"
+              type="text"
+            />
+          </div>,
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text d-none d-lg-block"
+                id="basic-addon1"
+              >
+                Password
+              </span>
+            </div>
+            <input
+              className="form-control"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+            />
+          </div>,
+          <div>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              登录
+            </button>
+            
+          </div>,
+        ],
+        "className": "login-input-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="input-group-prepend"
+              >
+                <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Username
+                </span>
+              </div>,
+              <input
+                className="form-control"
+                onChange={[Function]}
+                placeholder="Username"
+                type="text"
+              />,
+            ],
+            "className": "input-group mb-3",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Username
+                </span>,
+                "className": "input-group-prepend",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Username",
+                  "className": "input-group-text d-none d-lg-block",
+                  "id": "basic-addon1",
+                },
+                "ref": null,
+                "rendered": "Username",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "onChange": [Function],
+                "placeholder": "Username",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="input-group-prepend"
+              >
+                <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Password
+                </span>
+              </div>,
+              <input
+                className="form-control"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+              />,
+            ],
+            "className": "input-group mb-3",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Password
+                </span>,
+                "className": "input-group-prepend",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Password",
+                  "className": "input-group-text d-none d-lg-block",
+                  "id": "basic-addon1",
+                },
+                "ref": null,
+                "rendered": "Password",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "onChange": [Function],
+                "placeholder": "Password",
+                "type": "password",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+              >
+                登录
+              </button>,
+              "",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "登录",
+                "className": "btn btn-primary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "登录",
+              "type": "button",
+            },
+            "",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="login-input-group"
+        >
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text d-none d-lg-block"
+                id="basic-addon1"
+              >
+                Username
+              </span>
+            </div>
+            <input
+              className="form-control"
+              onChange={[Function]}
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text d-none d-lg-block"
+                id="basic-addon1"
+              >
+                Password
+              </span>
+            </div>
+            <input
+              className="form-control"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+            />
+          </div>
+          <div>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              登录
+            </button>
+            
+          </div>
+        </div>,
+        "className": "login-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="input-group mb-3"
+            >
+              <div
+                className="input-group-prepend"
+              >
+                <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Username
+                </span>
+              </div>
+              <input
+                className="form-control"
+                onChange={[Function]}
+                placeholder="Username"
+                type="text"
+              />
+            </div>,
+            <div
+              className="input-group mb-3"
+            >
+              <div
+                className="input-group-prepend"
+              >
+                <span
+                  className="input-group-text d-none d-lg-block"
+                  id="basic-addon1"
+                >
+                  Password
+                </span>
+              </div>
+              <input
+                className="form-control"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+              />
+            </div>,
+            <div>
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+              >
+                登录
+              </button>
+              
+            </div>,
+          ],
+          "className": "login-input-group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="input-group-prepend"
+                >
+                  <span
+                    className="input-group-text d-none d-lg-block"
+                    id="basic-addon1"
+                  >
+                    Username
+                  </span>
+                </div>,
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Username"
+                  type="text"
+                />,
+              ],
+              "className": "input-group mb-3",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="input-group-text d-none d-lg-block"
+                    id="basic-addon1"
+                  >
+                    Username
+                  </span>,
+                  "className": "input-group-prepend",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Username",
+                    "className": "input-group-text d-none d-lg-block",
+                    "id": "basic-addon1",
+                  },
+                  "ref": null,
+                  "rendered": "Username",
+                  "type": "span",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "onChange": [Function],
+                  "placeholder": "Username",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="input-group-prepend"
+                >
+                  <span
+                    className="input-group-text d-none d-lg-block"
+                    id="basic-addon1"
+                  >
+                    Password
+                  </span>
+                </div>,
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                />,
+              ],
+              "className": "input-group mb-3",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="input-group-text d-none d-lg-block"
+                    id="basic-addon1"
+                  >
+                    Password
+                  </span>,
+                  "className": "input-group-prepend",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Password",
+                    "className": "input-group-text d-none d-lg-block",
+                    "id": "basic-addon1",
+                  },
+                  "ref": null,
+                  "rendered": "Password",
+                  "type": "span",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "onChange": [Function],
+                  "placeholder": "Password",
+                  "type": "password",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="btn btn-primary"
+                  onClick={[Function]}
+                >
+                  登录
+                </button>,
+                "",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "登录",
+                  "className": "btn btn-primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "登录",
+                "type": "button",
+              },
+              "",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
