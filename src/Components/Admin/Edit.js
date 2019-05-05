@@ -1,46 +1,36 @@
 import React from 'react'
-import {Link} from "react-router-dom";
-import './style.css'
+import { Link } from "react-router-dom";
+import { editData } from "../../Data";
 
 class Edit extends React.Component{
   constructor(props) {
     super(props)
     this.state = {
-      inputValue: '',
-      category: ['JAVA', 'HTTP', '前端框架', 'MySQL'],
-      postList: [
-        {
-          id: '0',
-          title: '这是一篇文章这是一篇文章',
-          date: '2019-03-10'
-        },
-        {
-          id: '1',
-          title: '这是一篇文章这是一篇文章',
-          date: '2019-03-10'
-        },
-        {
-          id: '2',
-          title: '这是一篇文章这是一篇文章',
-          date: '2019-03-10'
-        },
-        {
-          id: '3',
-          title: '这是一篇文章这是一篇文章',
-          date: '2019-03-10'
-        },
-      ]
+      newCategory: '',
+      newResume: '',
+      category: editData.category,
+      postList: editData.postList
     }
-    this.getInputValue = this.getInputValue.bind(this)
+    this.getNewCategory = this.getNewCategory.bind(this)
     this.addCategoryItem = this.addCategoryItem.bind(this)
+    this.getNewResume = this.getNewResume.bind(this)
   }
-  getInputValue(e) {
+  getNewCategory(e) {
     this.setState({
-      inputValue: e.target.value
+      newCategory: e.target.value
+    })
+  }
+  getNewResume(e) {
+    this.setState({
+      newResume: e.target.value
     })
   }
   addCategoryItem() {
-    const arr = [...this.state.category, this.state.inputValue]
+    let temp = {
+      categoryTitle: this.state.newCategory,
+      resume: this.state.newResume
+    }
+    const arr = [...this.state.category, temp]
     this.setState({
       category: arr
     })
@@ -58,7 +48,10 @@ class Edit extends React.Component{
                     this.state.category.map((item, index) => (
                       <li key={index}>
                         <p>
-                          {item}
+                          {item.categoryTitle}
+                        </p>
+                        <p>
+                          {item.resume}
                         </p>
                       </li>
                     ))
@@ -66,22 +59,33 @@ class Edit extends React.Component{
                 </ul>
               </div>
               <div className="col">
-                <div className="input-group mb-3">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="输入新专题名"
-                    onChange={this.getInputValue}
-                  />
-                    <div className="input-group-append">
-                      <button
-                        onClick={this.addCategoryItem}
-                        className="btn btn-primary"
+                <div className="input-group mb-3 row">
+                  <div className="col-12">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="输入新专题名"
+                      onChange={this.getNewCategory}
+                    />
+                  </div>
+                    <div className="col-12 pt-5">
+                      <textarea
+                        className="form-control"
+                        placeholder="请输入该标题相关简介"
+                        onChange={this.getNewResume}
                       >
-                        添加
-                      </button>
+                      </textarea>
                     </div>
+                  <div className="col-12 row justify-content-center pt-5">
+                    <button
+                      className="btn btn-primary col-4"
+                      onClick={this.addCategoryItem}
+                    >
+                      提交
+                    </button>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>

@@ -1,11 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import {DataHomepage} from "../../Data";
 
 import PostItem from './PostItem'
-import Footer from '../Base/Footer'
-import SiteInfo from '../Base/SiteInfo'
-import NavBar from '../NavBar/NavBar'
+import Footer from './Footer'
+import SiteInfo from './SiteInfo'
+import NavBar from './NavBar'
 
 class HomePage extends React.Component{
   constructor(props) {

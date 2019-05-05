@@ -1,5 +1,4 @@
 import React from 'react'
-import './style.css'
 import { chartData, RadarData, BarData } from "../../Data";
 import {AreaChart, XAxis, YAxis, CartesianGrid, Tooltip, Area, BarChart, Bar,
   RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Legend

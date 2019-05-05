@@ -1,10 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
+import { siteInfo } from "../../Data";
 
 class SiteInfo extends React.Component{
   constructor(props) {
     super(props)
+    this.state = {
+      siteInfoHeader: siteInfo.siteInfoHeader,
+      siteInfoFooter: siteInfo.siteInfoFooter
+    }
   }
   render() {
     return (
@@ -12,8 +16,8 @@ class SiteInfo extends React.Component{
       justify-content-center align-items-center
       border-top pt-4
       ">
-        <p className="site-info-header">© 2019 - 225 的小站 - 京 ICP 备2016100104号</p>
-        <p className="site-info-footer">Powered by Bootstrap & React JS</p>
+        <p className="site-info-header">{this.state.siteInfoHeader}</p>
+        <p className="site-info-footer">{this.state.siteInfoFooter}</p>
       </div>
     )
   }

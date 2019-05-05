@@ -1,8 +1,8 @@
 import React from 'react'
-import {DataHomepage} from "../../Data";
+import { DataHomepage, hotWord} from "../../Data";
 
-import NavBar from '../NavBar/NavBar'
-import SiteInfo from '../Base/SiteInfo';
+import NavBar from './NavBar'
+import SiteInfo from './SiteInfo';
 import PostItem from '../Content/PostItem'
 
 class Search extends React.Component{
@@ -10,7 +10,7 @@ class Search extends React.Component{
     super(props)
     this.state = {
       inputValue: '',
-      hotWord: ['HTTP','JAVA','数据结构','前端框架'],
+      hotWord: hotWord,
       showSearchList: false,
       searchList: DataHomepage
     }

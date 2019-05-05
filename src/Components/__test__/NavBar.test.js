@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
+import NavBar from '../Content/NavBar'
 import { shallow } from "enzyme";
 
 import PortraitUrl from '../../assets/images/portrait_mode.png'

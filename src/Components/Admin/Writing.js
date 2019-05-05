@@ -1,5 +1,4 @@
 import React from 'react'
-import './style.css'
 import marked from "marked";
 import highLight from "highlight.js";
 

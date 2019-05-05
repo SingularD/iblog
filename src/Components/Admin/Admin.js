@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
-import './style.css'
 
 
 import AdminNav from './AdminNav'

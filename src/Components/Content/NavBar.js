@@ -1,8 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
+import { navbarData } from "../../Data";
 
-import PortraitUrl from '../../assets/images/portrait_mode.png'
 import GithubUrl from '../../assets/images/github.png'
 import RssUrl from '../../assets/images/rss.png'
 import SearchUrl from '../../assets/images/search.png'
@@ -12,11 +11,11 @@ class NavBar extends React.Component{
   constructor(props) {
     super(props)
     this.state = {
-      portraitUrl: PortraitUrl,
-      username: 'Singular',
-      resume: '这是一段个人简介',
-      githubUrl: '',
-      rssUrl: ''
+      portraitUrl: navbarData.portraitUrl,
+      username: navbarData.username,
+      resume: navbarData.resume,
+      githubUrl: navbarData.githubUrl,
+      rssUrl: navbarData.rssUrl
     }
   }
 
@@ -44,7 +43,9 @@ class NavBar extends React.Component{
               </ul>
             </div>
             <div className="nav-bar-hrefs">
-              <img src={GithubUrl} alt="github"/>
+              <a href={this.state.githubUrl}>
+                <img src={GithubUrl} alt="github"/>
+              </a>
               <img src={RssUrl} alt="rss"/>
               <Link to="/search">
                 <img src={SearchUrl} alt="search"/>

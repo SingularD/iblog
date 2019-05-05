@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component{
   render() {
@@ -10,7 +10,7 @@ class Footer extends React.Component{
             <a href="#">上一页</a>
           </div>
           <div className="col-4 text-center">
-            <a href="#">归档</a>
+            <Link to="/archive">归档</Link>
           </div>
           <div className="col-4 text-right">
             <a href="#">下一页</a>

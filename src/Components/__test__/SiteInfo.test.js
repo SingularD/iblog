@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme/build'
-import SiteInfo from '../Base/SiteInfo'
+import SiteInfo from '../Content/SiteInfo'
 
 const info = [
   '© 2019 - 225 的小站 - 京 ICP 备2016100104号',
